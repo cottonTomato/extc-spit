@@ -38,7 +38,7 @@ class About extends Component {
               Graduates find opportunities in communication, networking, and
               technology-driven fields. Companies such as Sony Ericsson India
               Ltd, CISCO, Microsoft, IBM, Deloitte, L&T, Tech Mahindra, Infosys,
-              etc., recruit our students on campus.
+              etc., recruit our students on campus..
             </p>
           </Card>
 
