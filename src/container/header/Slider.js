@@ -12,7 +12,7 @@ class Slider extends Component {
       <Container fluid>
         <Row className="max-height" style={{ marginLeft: "0px", marginRight: "0px" }}>
           <Col xs={12} className="mx-auto div-col">
-            <Carousel>
+            <Carousel style={{height: "auto"}}>
               <Carousel.Item>
                 <Image
                   className="d-block w-100"
@@ -20,7 +20,9 @@ class Slider extends Component {
                   alt="First slide"
                   fluid
                   style={{
-                    objectFit: "cover",
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
                     borderRadius: "10px",
                   }}
                 />
@@ -32,7 +34,9 @@ class Slider extends Component {
                   alt="Second slide"
                   fluid
                   style={{
-                    objectFit: "cover",
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
                     borderRadius: "10px",
                   }}
                 />
@@ -44,7 +48,9 @@ class Slider extends Component {
                   alt="Third slide"
                   fluid
                   style={{
-                    objectFit: "cover",
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
                     borderRadius: "10px",
                   }}
                 />

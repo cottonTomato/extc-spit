@@ -55,11 +55,6 @@ a:hover {
   max-width: 100% !important;
 }
 
-.carousel-item img {
-  width: 100%;
-  height: auto; /* Ensure images maintain aspect ratio */
-}
-
 .carousel-caption {
   right: 35%;
   top: 35%;
@@ -94,11 +89,5 @@ a:hover {
   .navbar-brand img {
     width: 75px;
     height: 75px;
-  }
-
-  .carousel-item img {
-    height: 550px !important;
-    width: 100%;
-    border-radius: 1px;
   }
 }
