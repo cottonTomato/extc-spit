@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     height: 100vh; /* Adjust the height as needed */
-    margin-top:2rem;
+    margin-top:7rem;
     margin-bottom: 10rem;
+    margin-left: 14rem;
+    margin-right: 13.5rem;
 }

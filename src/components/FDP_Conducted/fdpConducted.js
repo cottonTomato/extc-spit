@@ -27,7 +27,7 @@ class FdpConductedPage extends Component {
           {/*     title="Spreadsheet" */}
           {/*   /> */}
           {/* </div> */}
-          <div className="fdb-conducted-table-title">EXTC DEPT YEAR 2020-21</div>
+          <div className="fdb-conducted-table-title"><br/></div>
           <table>
             <thead>
               <tr>
@@ -42,7 +42,7 @@ class FdpConductedPage extends Component {
               </tr>
             </thead>
             <tbody>
-              <tr className="fdb-conducted-table-year">2020</tr>
+              <tr className="fdb-conducted-table-year" style={{fontWeight: 'bold'}}>2020</tr>
               {
                 fdpConductedData2020.map(e => {
                   return (
@@ -59,7 +59,8 @@ class FdpConductedPage extends Component {
                   );
                 })
               }
-              <tr className="fdb-conducted-table-year">2021</tr>
+              <br/>
+              <tr className="fdb-conducted-table-year" style={{fontWeight: 'bold'}}>2021</tr>
               {
                 fdpConductedData2021.map(e => {
                   return (

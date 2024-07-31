@@ -16,19 +16,21 @@ class FdpParticipationPage extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <div className="iframe-container">
           {" "}
-          <div className="iframe-container">
-            <iframe
+            {/* <iframe
               scrollbar="no"
               src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmib8LOBnFRGL16HLnpYgtAdBa2VMKzBS5NnkDU1kWQXqzmL5jlit7kS8hbjLF3g/pubhtml?widget=true&amp;headers=false"
               width="100%"
               height="800px"
               style={{ border: "0" }}
               title="Spreadsheet"
-            />
-          </div>
-        </Container>
+            /> */}
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSK28cg66PabKJCoaTK1Wv8SQS9xnQIdpFHW-3DS3Wzyu27KpriYGd4QLIPyj2yBw/pubhtml?gid=427480530&amp;single=true&amp;widget=true&amp;headers=false" title="Spreadsheet" width="100%"
+              height="100%"
+              style={{ border: "0", height: "100%", scale: "1.25" }}>
+            </iframe>
+        </div>
       </>
     );
   }
