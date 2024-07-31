@@ -18,27 +18,28 @@ class About extends Component {
           <Card className="card-style">
             <h1>About</h1>
             <p  style={{ textAlign: "justify"}}>
-              The B.E. Electronics and Telecommunications Engineering is a
-              comprehensive four-year program that imparts a well-rounded
-              education and a strong foundation in electronics, communications,
-              computing, and engineering sciences. Established in 2005, the
-              department initiated the Electronics & Telecommunication
-              Engineering Course with an intake of 60 students and later
-              introduced M.E. (EXTC) in 2010 with 18 students. The faculty,
-              equipped with high qualifications and professional expertise,
-              conducts training programs covering Network Administration,
-              Communication, Design & Optimization, Network Security, Embedded
-              Systems, Real-time DSP applications, VLSI design, and RTOS. The
-              department collaborates with companies like Tata Consultancy
-              Services and Sony Ericsson India Ltd through MoUs to enhance
-              students' technical knowledge. Faculty members actively engage in
-              R&D, publishing research in prestigious international journals and
-              conferences such as IEEE, IET, AIP, ASP, Elsevier, etc. Students
-              stay informed through organizations like IEEE, IETE, and F.E.T.S.
-              Graduates find opportunities in communication, networking, and
-              technology-driven fields. Companies such as Sony Ericsson India
-              Ltd, CISCO, Microsoft, IBM, Deloitte, L&T, Tech Mahindra, Infosys,
-              etc., recruit our students on campus..
+              The B.E. Electronics and Telecommunications Engineering is a comprehensive four-year
+              program that imparts a well-rounded education and a strong foundation in electronics,
+              communications, computing, and engineering sciences. Established in 2005, the department
+              initiated the Electronics &amp; Telecommunication Engineering Course with an intake of 60 students
+              and later introduced M.E. (EXTC) in 2010 with 18 students. The department is currently scaling
+              new heights with the launch of a Ph.D. program in 2012 with an intake capacity of 20 research
+              scholars. S.P.I.T became an Autonomous Institute, affiliated to University of Mumbai in 2017.
+            </p>
+              
+            <p style={{ textAlign: "justify"}}>
+              The UG intake capacity from Academic year 2021-22 has been doubled 120 students. We have
+              been Granted Empowered Autonomy Status by the University of Mumbai in 2023. The faculty,
+              equipped with high qualifications and professional expertise, conducts training programs
+              covering Network Administration, Communication, Design &amp; Optimization, Network Security,
+              Embedded Systems, Real-time DSP applications, VLSI design, and RTOS. The department
+              collaborates with institute of national importance and companies through MoUs to enhance
+              students&#39; technical knowledge. Faculty members actively engage in R&amp;D, publishing research in
+              prestigious international journals and conferences such as IEEE, IET, AIP, ASP, Elsevier, etc.
+              Students stay informed through organizations like IEEE, IETE, and F.E.T.S. Graduates find
+              opportunities in communication, networking, and technology-driven fields. Companies such as J
+              P Morgan, Nomura, Barclays, Deutsche Bank, STM, Qualcomm, Intel, Google, Deloitte, L&amp;T,
+              etc., recruit our students on campus.
             </p>
           </Card>
 
