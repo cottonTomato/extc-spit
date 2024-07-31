@@ -30,7 +30,7 @@ module.exports = [
     name: "Dr. Kiran Talele",
     designation:
       "Associate Professor & Dean-Students, Alumni & External Relations",
-    image: "https://i.ibb.co/HVbqVvf/F3.png",
+    image: "https://i.ibb.co/bRLghwX/IMG-21083.jpg",
     qualification: "PhD",
     experience: "35 Years",
     expertise:
@@ -188,7 +188,7 @@ module.exports = [
   {
     name: "Prof. Milind Paraye",
     designation: "Assistant Professor",
-    image: "https://i.ibb.co/Nm2MmcM/F16.png",
+    image: "https://i.ibb.co/RQYRMcj/Milind-Sir-photo-1.jpg",
     qualification: "M.E. (Pursuing Ph.D.)",
     experience: "14 Years",
     expertise: "Embedded Systems, PV solar, ML, AI",
