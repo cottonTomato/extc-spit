@@ -8,6 +8,7 @@ import HigherStudies from "./HigherStudies2.png";
 class StudentPlacements extends Component {
   render() {
     const placementStatistics = [
+      { academicYear: "2023-24", appeared: 59, placed: 54, percentage: "91.5%" },
       { academicYear: "2022-23", appeared: 54, placed: 54, percentage: "100%" },
       { academicYear: "2021-22", appeared: 54, placed: 54, percentage: "100%" },
       { academicYear: "2020-21", appeared: 69, placed: 68, percentage: "99%" },
@@ -16,6 +17,23 @@ class StudentPlacements extends Component {
     ];
 
     const placementData = [
+      {
+        year: "2023-24",
+        profiles: [
+          {
+            profile: "M.S./MTech",
+            percentage: "11.5%",
+            details:
+              "Carnegie Mellon University, University of California San Diego, ETH Zurich, IIM Calcutta, North Carolina State University, University of Leeds, Johns Hopkins University",
+          },
+          {
+            profile: "Job",
+            percentage: "68%",
+            details:
+              "Barclays, Work India, Baker Hughes, KPMG, JPMC, Deutsche Bank, Transunion, Oracle FSS, Quantiphi",
+          },
+        ],
+      },
       {
         year: "2022-23",
         profiles: [
@@ -123,6 +141,7 @@ class StudentPlacements extends Component {
             </Col>
           </Row>
           <br />
+          <h3>Placement Statistics (Dept.)</h3>
           <table className="table">
             <thead>
               <tr>
@@ -162,6 +181,7 @@ class StudentPlacements extends Component {
             />
             <br />
             <br />
+            <h1>Placement, Entrepreneurship and Higher Studies Data:</h1>
             {placementData.map((yearData, index) => (
               <div key={index}>
                 <h3>({yearData.year})</h3>
@@ -183,6 +203,7 @@ class StudentPlacements extends Component {
                     ))}
                   </tbody>
                 </table>
+                <br />
               </div>
             ))}
           </div>
