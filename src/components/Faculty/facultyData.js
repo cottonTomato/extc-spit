@@ -251,7 +251,7 @@ module.exports = [
   {
     name: "Prof. Sneha A. Weakey",
     designation: "Assistant Professor",
-    image: "https://i.ibb.co/BrNsHpk/F21.jpg",
+    image: "https://i.ibb.co/BNcNXzN/sneha-maam-pic3.png",
     qualification: "M.Tech (Control System)",
     experience: "6 Years",
     expertise: "Control Systems, Digital Circuits, Electronics Devices",
@@ -303,7 +303,7 @@ module.exports = [
   {
     name: "Prof. Kochar Inderkumar M.",
     designation: "Assistant Professor",
-    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    image: "https://i.ibb.co/6nCWqWN/ik-sir-fac-pic-jpeg.png",
     qualification:
       "M. Tech (Communication Systems), Pursuing Ph.D. (RF & Microwave Engineering)",
     experience: "17+ Years",
@@ -317,7 +317,7 @@ module.exports = [
   {
     name: "Dr. Shanti Swamy",
     designation: "Assistant Professor",
-    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    image: "https://i.ibb.co/18bndfd/shanti-swamy-pic2.png",
     qualification: "Ph.D.",
     experience: "28 Years",
     // expertise:
@@ -330,8 +330,8 @@ module.exports = [
   {
     name: "Dr. Pankaj Binda",
     // TODO: no designation
-    designation: "Assistant Professor",
-    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    designation: "",
+    image: "https://i.ibb.co/B2fDsdD/pankaj-sir-pic3.png",
     qualification: "Ph.D.",
     experience: "0 Years",
     // expertise:
@@ -344,8 +344,8 @@ module.exports = [
   {
     name: "Prof. Mrinmayi Patil",
     // TODO: no designation
-    designation: "Assistant Professor",
-    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    designation: "",
+    image: "https://i.ibb.co/sg9vCLd/mrinmayi-patil-pic2.png",
     qualification:
       "B.Tech (Electronics) , M.Tech (Electronics and Communications)",
     experience: "3.5 years",

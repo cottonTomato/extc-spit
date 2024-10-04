@@ -53,7 +53,7 @@ module.exports = [
   {
     name: "Mrs. Shilpa Marbal",
     designation: "Technical Assistant",
-    image: "https://i.ibb.co/jgqbwZK/PXL-20240510-063119249.jpg",
+    image: "https://i.ibb.co/2Zg4Ty0/shilpa-marbal-pic2.png",
     qualification: "B.Tech (Electrical)",
     email: "shilpamarbhal@gmail.com",
   },
