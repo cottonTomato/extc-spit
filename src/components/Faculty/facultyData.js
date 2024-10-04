@@ -279,11 +279,13 @@ module.exports = [
     image: "https://i.ibb.co/VJdJT0f/PXL-20240510-055823936.jpg",
     qualification: "Ph. D",
     experience: "20+ Years",
-    expertise: "Pattern Recognition, Communication and Networking, Wireless Communication Networks, Embedded System",
+    expertise:
+      "Pattern Recognition, Communication and Networking, Wireless Communication Networks, Embedded System",
     email: "sujata_kulkarni@spit.ac.in",
     phone: "(022) – 69846900 EXT:",
     url: " linkedin.com/in/sujata-kulkarni-a8a94018b",
-    scholar: "https://scholar.google.com/citations?hl=en&user=WdAgkpAAAAJ&view_op=list_works&citft=1&citft=2&email_for_op=sujata_kulkarni%40spit.ac.in&gmla=AJsN-F6KnSoSiZ9w_sHyuwU9SzOfEtR8lXUwn9nCkN5VCPhYAoK_T3vT4AOp8gGOR53K3_zjxYYa10Fi4Bhzxv3XCtjTbP-6cw",
+    scholar:
+      "https://scholar.google.com/citations?hl=en&user=WdAgkpAAAAJ&view_op=list_works&citft=1&citft=2&email_for_op=sujata_kulkarni%40spit.ac.in&gmla=AJsN-F6KnSoSiZ9w_sHyuwU9SzOfEtR8lXUwn9nCkN5VCPhYAoK_T3vT4AOp8gGOR53K3_zjxYYa10Fi4Bhzxv3XCtjTbP-6cw",
   },
   {
     name: "Prof. Dayanand Ambawade",
@@ -291,10 +293,67 @@ module.exports = [
     image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
     qualification: "M.Tech (Communication) IIT, Bombay, Pursuing Ph.D",
     experience: "20+ Years",
-    expertise: "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
+    expertise:
+      "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
     email: "dd_ambawade@spit.ac.in",
     phone: "(022) – 69846900 EXT:69846900 EXT: ",
     url: "https://www.linkedin.com/in/dayanand-ambawade-a491a754/",
     scholar: "https://scholar.google.com/citations?user=jW3ErDgAAAAJ&hl=en",
+  },
+  {
+    name: "Prof. Kochar Inderkumar M.",
+    designation: "Assistant Professor",
+    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    qualification:
+      "M. Tech (Communication Systems), Pursuing Ph.D. (RF & Microwave Engineering)",
+    experience: "17+ Years",
+    // expertise:
+    //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
+    email: "inderkumar.kochar@spit.ac.in",
+    phone: "(022) – 69846900 EXT: 384",
+    url: "https://www.linkedin.com/in/inderkumar-kochar-323b7516/",
+    scholar: "https://scholar.google.com/citations?hl=en&user=OwUNG0EAAAAJ",
+  },
+  {
+    name: "Dr. Shanti Swamy",
+    designation: "Assistant Professor",
+    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    qualification: "Ph.D.",
+    experience: "28 Years",
+    // expertise:
+    //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
+    email: "shanti.swamy@spit.ac.in",
+    phone: "(022) – 69846900 EXT:",
+    url: "https://www.linkedin.com/in/dr-shanti-swamy-55b25a14/",
+    scholar: "https://scholar.google.co.in/citations?user=FxKdFxAAAAAJ&hl=en",
+  },
+  {
+    name: "Dr. Pankaj Binda",
+    // TODO: no designation
+    designation: "Assistant Professor",
+    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    qualification: "Ph.D.",
+    experience: "0 Years",
+    // expertise:
+    //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
+    email: "pankaj.binda@spit.ac.in",
+    phone: "(022) – 69846900 EXT:",
+    url: "https://www.linkedin.com/in/dr-pankaj-binda-7a4689252/",
+    scholar: "https://scholar.google.com/citations?user=b060gP4AAAAJ&hl=en",
+  },
+  {
+    name: "Prof. Mrinmayi Patil",
+    // TODO: no designation
+    designation: "Assistant Professor",
+    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    qualification:
+      "B.Tech (Electronics) , M.Tech (Electronics and Communications)",
+    experience: "3.5 years",
+    // expertise:
+    //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
+    email: "mrinmayi.patil@spit.ac.in",
+    phone: "(022) – 69846900 EXT:",
+    url: "https://www.linkedin.com/in/mrinmayi-patil-0860aa32b",
+    scholar: "https://scholar.google.com/citations?user=huRBzKgAAAAJ&hl=en",
   },
 ];

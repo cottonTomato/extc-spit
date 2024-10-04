@@ -20,7 +20,7 @@ class ResearchLab extends Component {
                 Approximate Cost of the equipments in the lab: Rs. 49,47,529/-
               </h6>
               <br></br>
-              <h6>Name of the Lab Incharge:- Prof. Govind Tukaram Haldankar</h6>
+              <h6>Name of the Lab Incharge:- Dr. Y. S. Rao</h6>
               <h6>Name of the Technical Asst.: Mrs. Kirti More</h6>
               <br></br>
               <p>

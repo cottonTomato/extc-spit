@@ -51,6 +51,13 @@ module.exports = [
     email: "pawarmukund80@gmail.com",
   },
   {
+    name: "Mrs. Shilpa Marbal",
+    designation: "Technical Assistant",
+    image: "https://i.ibb.co/jgqbwZK/PXL-20240510-063119249.jpg",
+    qualification: "B.Tech (Electrical)",
+    email: "shilpamarbhal@gmail.com",
+  },
+  {
     name: "Mr. Rajendra Balkrishna Kalthe",
     designation: "Lab Attendant",
     image: "https://i.ibb.co/1JXtLJR/PXL-20240510-063136025.jpg",

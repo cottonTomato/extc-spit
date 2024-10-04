@@ -44,10 +44,13 @@ class StudentInternships extends Component {
                     </thead>
                     <tbody>
                       <tr>
+                        <td>2023-24</td>
+                        <td>62</td>
+                      </tr>
+                      <tr>
                         <td>2022-23</td>
                         <td>71</td>
                       </tr>
-
                       <tr>
                         <td>2021-22</td>
                         <td>59</td>

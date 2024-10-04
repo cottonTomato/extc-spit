@@ -22,8 +22,8 @@ class InstrumentationLab extends Component {
                 Approximate Cost of the equipments in the lab: Rs. 15,13,825/-
               </h6>
               <br></br>
-              <h6>Name of the Lab Incharge:- Prof. Najib Ghatte</h6>
-              <h6>Name of the Technical Asst.: Mr. Vivek Kurhe</h6>
+              <h6>Name of the Lab Incharge:- Prof. Sneha Weakey</h6>
+              <h6>Name of the Technical Asst.: Ms. Shilpa Marbal</h6>
               <br></br>
 
               <p>

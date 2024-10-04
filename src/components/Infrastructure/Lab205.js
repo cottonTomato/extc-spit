@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container, Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import LabGallery205 from "../../container/gallery/LabGallery205";
 
 class Lab205 extends Component {
@@ -22,7 +21,7 @@ class Lab205 extends Component {
               </h6>
               <br />
               <h6>Name of the Lab Incharge:- Dr. Kiran Talele</h6>
-              <h6>Name of the Technical Asst.: Mr. Vivek Kurhe</h6>
+              <h6>Name of the Technical Asst.: Ms. Shilpa Marbal</h6>
               <br />
 
               <p>

@@ -21,7 +21,7 @@ class CompCommNetwork extends Component {
                 Approximate Cost of the equipments in the lab: Rs. 2232991/-
               </h6>
               <br></br>
-              <h6>Name of the Lab Incharge:- Dr. Amol Deshpande</h6>
+              <h6>Name of the Lab Incharge:- Dr. Deepak Karia</h6>
               <h6>Name of the Technical Asst.: Mrs. Riya Kasurde</h6>
               <br></br>
               <p>

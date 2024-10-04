@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container, Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import LabGallery507 from "../../container/gallery/LabGallery507";
 
 class Lab507A extends Component {
@@ -20,7 +19,7 @@ class Lab507A extends Component {
                 Approximate Cost of the equipments in the lab: Rs. 6,91,720/-
               </h6>
               <br></br>
-              <h6>Name of the Lab Incharge:- Prof. Manish Parmar</h6>
+              <h6>Name of the Lab Incharge:- Dr. Amol Deshpande</h6>
               <h6>Name of the Technical Asst.: Mrs. Kirti More</h6>
               <br></br>
 
