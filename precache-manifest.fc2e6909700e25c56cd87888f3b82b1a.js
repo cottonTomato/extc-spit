@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14e76f2c774c00139f3e7635d92c1129",
+    "revision": "3b2c13d23191effc2d95295950f90e8f",
     "url": "./index.html"
   },
   {
-    "revision": "eb901e1aa4e95f40046a",
+    "revision": "87d5efb930699c38d9c0",
     "url": "./static/css/2.952548e2.chunk.css"
   },
   {
-    "revision": "5a1e3977c39bad41877b",
+    "revision": "c438f3f550f519115f8e",
     "url": "./static/css/main.29a44fe5.chunk.css"
   },
   {
-    "revision": "eb901e1aa4e95f40046a",
-    "url": "./static/js/2.b62d4754.chunk.js"
+    "revision": "87d5efb930699c38d9c0",
+    "url": "./static/js/2.e9b08c53.chunk.js"
   },
   {
     "revision": "cfe63c1848a227eaaf4c756b8cf4bf44",
-    "url": "./static/js/2.b62d4754.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.e9b08c53.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a1e3977c39bad41877b",
-    "url": "./static/js/main.2a5cdeb6.chunk.js"
+    "revision": "c438f3f550f519115f8e",
+    "url": "./static/js/main.b3a664f7.chunk.js"
   },
   {
     "revision": "044ba1ba830dd13a4dd9",
     "url": "./static/js/runtime-main.00ae73aa.js"
   },
   {
-    "revision": "9feb22375d341044208b6647adc2f0ac",
-    "url": "./static/media/BE _EXTC_ETRX_ODD_2023-2024.9feb2237.pdf"
-  },
-  {
     "revision": "f2d5b0e4d4ecd96af9f5806aa1b710aa",
     "url": "./static/media/BE-EXTC_FYP.f2d5b0e4.pdf"
+  },
+  {
+    "revision": "510b4d7cf8c12ca8c4c5ab6febbed7c8",
+    "url": "./static/media/BE_EXTC.510b4d7c.pdf"
   },
   {
     "revision": "1900256566ebd380a849f37ae49692ca",
@@ -88,16 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/HigherStudies2.91fce0f0.png"
   },
   {
-    "revision": "5df367ecd87457a604dd168a0327ceb5",
-    "url": "./static/media/Interning.5df367ec.png"
+    "revision": "4c2dd70462e35ab917148b2f6693d710",
+    "url": "./static/media/Interning.4c2dd704.png"
   },
   {
-    "revision": "36c814f54a9c56b09bca480781c49445",
-    "url": "./static/media/InternshipStats.36c814f5.png"
-  },
-  {
-    "revision": "89a1cf7af5e61bcda4c4da63f4819828",
-    "url": "./static/media/LAB.89a1cf7a.pdf"
+    "revision": "04dfba96ea2b4937226b84dcf835cb7c",
+    "url": "./static/media/InternshipStats.04dfba96.png"
   },
   {
     "revision": "60a820bcb3986cfcd19269af63d16481",
@@ -192,16 +188,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/ProjectTemplate.8a3cf43b.zip"
   },
   {
-    "revision": "d9eaeb84b16603bd80eb9093beb5cb8a",
-    "url": "./static/media/SE_EXTC_ DIV A_B_ODD_2023-2024.d9eaeb84.pdf"
+    "revision": "80956640a8ff9a12492bdbf5e1c5b958",
+    "url": "./static/media/SE_EXTC.80956640.pdf"
   },
   {
     "revision": "00733253a1d7d68d4d574d51d90feb92",
     "url": "./static/media/SE_EXTC_Syllabus.00733253.pdf"
   },
   {
-    "revision": "4949ecc0ac2c12bc4b69c626486d0fe0",
-    "url": "./static/media/TE_EXTC_ DIV A_B_ODD_2023-2024.4949ecc0.pdf"
+    "revision": "56c184b5bd821ac1e93976f0b15f609a",
+    "url": "./static/media/TE_EXTC.56c184b5.pdf"
   },
   {
     "revision": "8b2fc3035fb8339aaa62d31517f02154",
