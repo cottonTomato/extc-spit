@@ -7,7 +7,7 @@ class Lab508 extends Component {
   render() {
     return (
       <Container>
-        <h3 className="text-capitalize text-center mb-4 mt-4">Project Lab</h3>
+        <h3 className="text-capitalize text-center mb-4 mt-4">Wireless Communications Lab</h3>
 
         <Card className="mt-2">
           <Card.Body>

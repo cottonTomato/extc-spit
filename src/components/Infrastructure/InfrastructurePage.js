@@ -265,7 +265,7 @@ class InfrastructurePage extends Component {
                   className="img-fluid labBannerImg"
                 />
                 <Card.Body>
-                  <Card.Title>508: Project Lab</Card.Title>
+                  <Card.Title>508: Wireless Communication Lab</Card.Title>
                   <Link
                     to="/Lab508"
                     className="btn btn-success"

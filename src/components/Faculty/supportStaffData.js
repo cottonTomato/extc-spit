@@ -37,16 +37,9 @@ module.exports = [
     email: "aaditisandav@gmail.com",
   },
   {
-    name: "Mr. Vivek Kurhe",
-    designation: "Technical Assistant",
-    image: "https://i.ibb.co/JpScCTZ/SF6.jpg",
-    qualification: "Diploma in Electrical Engineering",
-    email: "kurhevivek18@gmail.com",
-  },
-  {
     name: "Mr. Mukund Pawar",
     designation: "Clerk",
-    image: "https://i.ibb.co/wN7XVr4/SF7.jpg",
+    image: "https://i.ibb.co/HLZWCpr/mukund-pawar-pic.jpg",
     qualification: "B.A",
     email: "pawarmukund80@gmail.com",
   },
