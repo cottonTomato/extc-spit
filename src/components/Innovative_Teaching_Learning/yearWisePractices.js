@@ -1,5 +1,73 @@
 const yearWisePractices = [
   {
+    year: "2023-24",
+    practices: [
+      {
+        index: 1,
+        name: "Prof. Priya Deshpande",
+        methods: "SEM V, IoT Lab: Introduction of real life experiment in IoT Lab; Kahoot Quiz for every lab experiment",
+        outcomes: "Engagement, Application of Theory and Critical Thinking; Interative Learning, Competition & Collaboration",
+        measures: "LAB ISE: Rubrics & Kahoot Quiz; Kahoot marks"
+      },
+      {
+        index: null,
+        name: "",
+        methods: "SEM VI, RTES LAB: Open Book Assignment on design modelling of problem statement; MiniProject on RTOS problem statement",
+        outcomes: "Enhance students' application of theory, critical thinking; Demonstrating practical skills in task management and real-time system design",
+        measures: "ISE Marks"
+      },
+      {
+        index: 2,
+        name: "Dr Y S Rao",
+        methods: "New Hardware related practicals are designed for COA Lab",
+        outcomes: "More clarity about the organization",
+        measures: "ESE"
+      },
+      {
+        index: 3,
+        name: "Dr. Reena Sonkusare",
+        methods: "Sem V, DSP Applications ",
+        outcomes: "Demonstrating Real time DSP Applications",
+        measures: "LAB ISE Rubrics and Quiz"
+      },
+      {
+        index: null,
+        name: "",
+        methods: "Sem VI, FOA Lab: Introduce HFSS industry software for Antenna Designing, Poster Presentation",
+        outcomes: "Demonstrating applications of antenna in various domains",
+        measures: "LAB ISE Rubrics and Quiz"
+      },
+      {
+        index: 4,
+        name: "Prof. Priya Deshpande, Dr. Amol Deshpande, Dr. Narendra Bhagat, Dr. Anand Mane, Dr. Santoshkumar Sabat",
+        methods: "SEM II DSM LAB: Extra Experiment for Fast Learners",
+        outcomes: "Enhanced Understanding of Advanced Concepts, Improved Problem-Solving Skills, Promotion of Independent Learning, Recognition and Reward",
+        measures: "LAB ISE and student Feedback"
+      },
+      {
+        index: 5,
+        name: "Dr. Kiran Talele, Prof. Amol Deshpande, Prof. Milind Paraye",
+        methods: "Sem-IV, Signals and Systems",
+        outcomes: "Hardware realization of Analog Filters and included as one of the experiment in Lab",
+        measures: "Lab ISE"
+      },
+      {
+        index: 6,
+        name: "Pallavi Nair",
+        methods: "OFC CASE STUDY, 45 minutes presentation challenge (team activity), activity for fast learner: Task given during IITB co-teaching",
+        outcomes: "Understanding real life scenario of OFC application and its implementation, analyzing the losses, creating report and presentation, Modal analysis of the optical fiber using MATLAB program",
+        measures: "ISE Marks"
+      },
+      {
+        index: 7,
+        name: "Manisha Bansode",
+        methods: "Apply Flipclassroom technique (Think Pair Share activity) in a SAP Class.",
+        outcomes: "Activity significantly enhanced students' understanding of the ear's acoustical properties, neural spiking mechanisms, and dynamic range management. This interactive approach improved their critical thinking, problem-solving, communication, and collaboration skills, resulting in increased engagement and positive feedback.",
+        measures: "Indirectly with ESE marks"
+      }
+    ]
+  },
+  {
     year: "2022-23",
     practices: [
       {
@@ -58,6 +126,13 @@ const yearWisePractices = [
           "Demonstration on any given new Microcontroller development board with peer learning",
         measures: "Assessment using rubric and oral evaluation",
       },
+      {
+        index: 8,
+        name: "Pallavi Nair",
+        methods: "Optical Fibre Communication : Case Study , Microwave Communication : Mini Project",
+        outcomes: "Skill enhancement, real world problem solving, collaboration and team work",
+        measures: "ISE Marks"
+      }
     ],
   },
   {
