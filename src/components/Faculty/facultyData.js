@@ -306,10 +306,10 @@ module.exports = [
     image: "https://i.ibb.co/6nCWqWN/ik-sir-fac-pic-jpeg.png",
     qualification:
       "M. Tech (Communication Systems), Pursuing Ph.D. (RF & Microwave Engineering)",
-    experience: "17+ Years",
+    experience: "12+ Years",
     // expertise:
     //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
-    email: "inderkumar.kochar@spit.ac.in",
+    email: "kochar.inderkumar@spit.ac.in",
     phone: "(022) – 69846900 EXT: 384",
     url: "https://www.linkedin.com/in/inderkumar-kochar-323b7516/",
     scholar: "https://scholar.google.com/citations?hl=en&user=OwUNG0EAAAAJ",
