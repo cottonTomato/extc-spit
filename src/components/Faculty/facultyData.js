@@ -149,7 +149,7 @@ module.exports = [
     designation: "Assistant Professor",
     image: "https://i.ibb.co/YBSmbQb/PXL-20240510-055856262.jpg",
     qualification:
-      "M.E (Electrical) (Automatic Control and Robotics), Pursuing Ph.D",
+      "Ph.D",
     experience: "17 Years",
     expertise:
       "Electronic Devices and Circuits, Analog VLSI Design, Neuromorphic Engineering",
@@ -291,7 +291,7 @@ module.exports = [
     name: "Prof. Dayanand Ambawade",
     designation: "Associate Professor",
     image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
-    qualification: "M.Tech (Communication) IIT, Bombay, Pursuing Ph.D",
+    qualification: "Ph.D",
     experience: "20+ Years",
     expertise:
       "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",

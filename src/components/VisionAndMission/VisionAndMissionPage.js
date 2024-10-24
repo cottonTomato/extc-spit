@@ -319,9 +319,7 @@ class VisionAndMissionPage extends Component {
               }}
             >
               <strong>
-                “To be the leading Electronics and Telecommunication department,
-                graduating professionally competent engineers with research
-                aptitude and social sensitivity.”
+                “To graduate professionally competent Electronics and Telecommunication engineers with research aptitude and social sensitivity.”
               </strong>
             </p>
           </Container>
@@ -330,26 +328,19 @@ class VisionAndMissionPage extends Component {
             <strong>
               <ul>
                 <li>
-                  To innovate constantly and adopt teaching, learning,
-                  evaluation strategies to suit the learners, and ensure
-                  academic and research conducive infrastructure.
+                  To innovate constantly and adopt teaching, learning, evaluation strategies to suit the learners, and ensure academic and research conducive infrastructure.
                 </li>
                 <li>
-                  To ensure fruitful collaborations with academia and industry
-                  for excellence in academic and research.
+                  To ensure fruitful collaborations with academia and industry for excellence in academic and research.
                 </li>
                 <li>
-                  To undertake the continuous value addition of faculty and
-                  staff with suitable empowerment policies.
+                  To undertake the continuous value addition of faculty and staff with suitable empowerment policies.
                 </li>
                 <li>
-                  To inculcate sensitivity to societal issues, communication
-                  skills and teamwork, lifelong learning attitude, and relevant
-                  skills amongst the learners.
+                  To inculcate sensitivity to societal issues, communication skills and teamwork, lifelong learning attitude, and relevant skills amongst the learners.
                 </li>
                 <li>
-                  To implement the NEP recommendations to the spirit and ensure
-                  the holistic, all-rounded development of the learners.
+                  To ensure holistic, flexibility, inclusivity and all rounded development of the learners.
                 </li>
               </ul>
             </strong>
