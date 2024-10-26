@@ -51,29 +51,6 @@ class VLSILab extends Component {
                 experiments and projects.
               </p>
               <p>
-                <b>Software available and installed in VLSI lab:</b>
-              </p>
-
-              <ul style={{ marginLeft: "50px" }}>
-                <li>MENTOR Graphics</li>
-                <li>ConventorWare</li>
-                <li>COMSOL</li>
-                <li>VIVADO</li>
-                <li>Visual TCAD</li>
-                <li>Tanner tool</li>
-                <li>Aim SPICE</li>
-                <li>Microwind</li>
-                <li>PSPICE</li>
-                <li>MATLAB7</li>
-                <li>Cadence</li>
-              </ul>
-              <p>
-                Testing and measuring instruments like 100Mhz Digital Storage
-                Oscilloscope is also available. There are many prototype boards
-                available from Texas Instruments University Program &amp;
-                Cypress University Program.
-              </p>
-              <p>
                 <b>Hardware available with related softwares:</b>
               </p>
 
@@ -85,6 +62,13 @@ class VLSILab extends Component {
                 <li>PAL logic Design Trainer</li>
                 <li>In-circuit emulator</li>
               </ul>
+              
+              <p>
+                Testing and measuring instruments like 100Mhz Digital Storage
+                Oscilloscope is also available. There are many prototype boards
+                available from Texas Instruments University Program &amp;
+                Cypress University Program.
+              </p>
             </div>
           </Card.Body>
         </Card>

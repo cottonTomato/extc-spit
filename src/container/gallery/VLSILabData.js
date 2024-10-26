@@ -5,4 +5,6 @@ export const IMAGES = [
   { src: "https://i.ibb.co/Y3LDgtS/3.jpg", thumbnail: "" },
   { src: "https://i.ibb.co/fCzn2Mj/4.jpg", thumbnail: "" },
   { src: "https://i.ibb.co/Lh1fv0j/5.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/HHY1JsW/Edge-vlsi-lab.png", thumbnail: "" },
+  { src: "https://i.ibb.co/8sJd3xZ/7-vlsi-pic.png", thumbnail: "" },
 ];
