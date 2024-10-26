@@ -58,6 +58,8 @@ import Lab205 from "./components/Infrastructure/Lab205";
 import Lab502 from "./components/Infrastructure/Lab502";
 import Lab507A from "./components/Infrastructure/Lab507A";
 import Lab508 from "./components/Infrastructure/Lab508";
+import Class307 from "./components/Infrastructure/Class307";
+import Class309 from "./components/Infrastructure/Class309";
 import Class203 from "./components/Infrastructure/Class203";
 import Class509 from "./components/Infrastructure/Class509";
 import AlumniPage from "./components/Alumni/AlumniPage";

@@ -303,6 +303,44 @@ class InfrastructurePage extends Component {
               <Card>
                 <Card.Img
                   variant="top"
+                  src="https://i.ibb.co/prRSZQY/Classroom-blurred-307.jpg"
+                  className="img-fluid labBannerImg"
+                />
+                <Card.Body>
+                  <Card.Title>307: Classroom</Card.Title>
+                  <Link
+                    to="/Class307"
+                    className="btn btn-success"
+                    style={{ marginLeft: "40%" }}
+                  >
+                    Go to Class
+                  </Link>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src="https://i.ibb.co/ZSqhmRj/Classroom-blurred-309.jpg"
+                  className="img-fluid labBannerImg"
+                />
+                <Card.Body>
+                  <Card.Title>309: Classroom</Card.Title>
+                  <Link
+                    to="/Class309"
+                    className="btn btn-success"
+                    style={{ marginLeft: "40%" }}
+                  >
+                    Go to Class
+                  </Link>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card>
+                <Card.Img
+                  variant="top"
                   src="https://i.ibb.co/7QCL7tQ/c11.png"
                   className="img-fluid labBannerImg"
                 />
