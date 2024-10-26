@@ -18,7 +18,7 @@ class EmbeddedSystem extends Component {
               <h6>Lab location: 3rd Floor, Room No. 301</h6>
               <h6>Area of the lab in carpet: 54.25 sq. mt</h6>
               <h6>
-                Approximate Cost of the equipments in the lab: Rs. 41,74,687/-
+                Approximate Cost of the equipments in the lab: Rs. 35,73,308/-
               </h6>
               <br></br>
               <h6>Name of the Lab Incharge:- Prof. Priya Deshpande</h6>
@@ -54,6 +54,7 @@ class EmbeddedSystem extends Component {
                 <li>Zybo Zynq 7000</li>
                 <li>Neumatolab Kit</li>
                 <li>MSP 432</li>
+                <li>Raspberry Pi-4 Model B development boards</li>
               </ul>
             </div>
           </Card.Body>

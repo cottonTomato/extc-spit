@@ -17,7 +17,7 @@ class VLSILab extends Component {
               <h6>Lab location: 3rd Floor, Room No. 303</h6>
               <h6>Area of the lab in carpet: 100.37 sq. mtrs</h6>
               <h6>
-                Approximate Cost of the equipments in the lab: Rs. 57,10,819/-
+                Approximate Cost of the equipments in the lab: Rs. 42,87,711/-
               </h6>
               <br></br>
               <h6>Name of the Lab Incharge:- Dr. Prashant Kasambe</h6>
