@@ -33,8 +33,8 @@ class LabGalleryResearch extends Component {
     };
 
     const imageStyle = {
-      maxWidth: "100%",
-      maxHeight: "400px",
+      width: "40%",
+      height: "400px",
       margin: "0 auto",
     };
 
