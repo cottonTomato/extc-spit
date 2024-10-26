@@ -70,3 +70,17 @@ h2:hover{
 .img-container:hover .course-item-icon {
   transform: translate(0, 0);
 }
+
+.centered-list {
+  list-style-type: none;
+  /* Remove bullet points */
+  padding: 0;
+  /* Remove default padding */
+  text-align: start;
+  /* Center the list */
+}
+
+.centered-list li {
+  padding-top: 6px;
+    /* Remove default padding */
+}
