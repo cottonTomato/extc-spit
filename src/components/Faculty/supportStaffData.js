@@ -19,7 +19,7 @@ module.exports = [
     name: "Mrs. Kirti G. More",
     designation: "Technical Assistant",
     image: "https://i.ibb.co/ctJz0dT/PXL-20240510-060122977.jpg",
-    qualification: "BE (Electrical)",
+    qualification: "ME",
     email: "kirti_more@spit.ac.in",
   },
   {
