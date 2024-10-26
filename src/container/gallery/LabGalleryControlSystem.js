@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Gallery from "react-grid-gallery";
-import { IMAGES } from "./InstrumentationLabData.js";
+import { IMAGES } from "./ControlSystemLabData.js";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -33,8 +33,8 @@ class LabGalleryInstrumentation extends Component {
     };
 
     const imageStyle = {
-      maxWidth: "100%",
-      maxHeight: "400px",
+      width: "40%",
+      height: "400px",
       margin: "0 auto",
     };
 

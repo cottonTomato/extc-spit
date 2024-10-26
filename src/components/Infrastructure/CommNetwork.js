@@ -3,12 +3,12 @@ import { Container, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import LabGallery2 from "../../container/gallery/LabGallery2";
 
-class CompCommNetwork extends Component {
+class CommNetwork extends Component {
   render() {
     return (
       <Container>
         <h3 className="text-capitalize text-center mb-4 mt-4">
-          Computer Communication Networking Lab
+          Communication & Networking Lab
         </h3>
         <Card className="mt-2">
           <Card.Body>
@@ -25,7 +25,7 @@ class CompCommNetwork extends Component {
               <h6>Name of the Technical Asst.: Mrs. Riya Kasurde</h6>
               <br></br>
               <p>
-                The Computer Communication Laboratory is a dedicated space
+                The Communication & Networking Laboratory is a dedicated space
                 equipped with specialized hardware and software used for
                 studying and experimenting with various aspects of computer
                 networking and communication systems. In this laboratory,
@@ -72,4 +72,4 @@ class CompCommNetwork extends Component {
   }
 }
 
-export default CompCommNetwork;
+export default CommNetwork;

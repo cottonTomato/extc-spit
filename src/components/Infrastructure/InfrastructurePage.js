@@ -45,9 +45,9 @@ class InfrastructurePage extends Component {
                   className="img-fluid labBannerImg"
                 />
                 <Card.Body>
-                  <Card.Title>206: Instrumentation Lab</Card.Title>
+                  <Card.Title>206: Control System Lab</Card.Title>
                   <Link
-                    to="/instrumentationLab"
+                    to="/controlSystemLab"
                     className="btn btn-success"
                     style={{ marginLeft: "40%" }}
                   >
@@ -204,10 +204,10 @@ class InfrastructurePage extends Component {
                 />
                 <Card.Body>
                   <Card.Title>
-                    503: Computer Communication Networking Lab
+                    503: Communication & Networking Lab
                   </Card.Title>
                   <Link
-                    to="/CompCommNetwork"
+                    to="/CommNetwork"
                     className="btn btn-success"
                     style={{ marginLeft: "40%" }}
                   >

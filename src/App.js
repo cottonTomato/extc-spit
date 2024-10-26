@@ -46,14 +46,14 @@ import FdpParticipationPage from "./components/FDP_Participation/fdpParticipatio
 import VisionAndMissionPage from "./components/VisionAndMission/VisionAndMissionPage";
 import InfrastructurePage from "./components/Infrastructure/InfrastructurePage";
 import EmbeddedSystem from "./components/Infrastructure/EmbeddedSystem";
-import CompCommNetwork from "./components/Infrastructure/CompCommNetwork";
+import CommNetwork from "./components/Infrastructure/CommNetwork";
 import BEELab from "./components/Infrastructure/BEELab";
 import AnalogCircuitLab from "./components/Infrastructure/AnalogCircuitLab";
 import VLSILab from "./components/Infrastructure/VLSILab";
 import ElectronicsDeviceLab from "./components/Infrastructure/ElectronicsDeviceLab";
 import FiberOpticLab from "./components/Infrastructure/FiberOpticLab";
 import ResearchLab from "./components/Infrastructure/ResearchLab";
-import InstrumentationLab from "./components/Infrastructure/InstrumentationLab";
+import ControlSystemLab from "./components/Infrastructure/ControlSystemLab";
 import Lab205 from "./components/Infrastructure/Lab205";
 import Lab502 from "./components/Infrastructure/Lab502";
 import Lab507A from "./components/Infrastructure/Lab507A";
@@ -176,8 +176,8 @@ class App extends React.Component {
             <Route exact path="/EmbeddedSystem">
               <EmbeddedSystem />
             </Route>
-            <Route exact path="/CompCommNetwork">
-              <CompCommNetwork />
+            <Route exact path="/CommNetwork">
+              <CommNetwork />
             </Route>
             <Route exact path="/beeLab">
               <BEELab />
@@ -197,8 +197,8 @@ class App extends React.Component {
             <Route exact path="/researchLab">
               <ResearchLab />
             </Route>
-            <Route exact path="/instrumentationLab">
-              <InstrumentationLab />
+            <Route exact path="/controlSystemLab">
+              <ControlSystemLab />
             </Route>
             <Route exact path="/Lab205">
               <Lab205  />
@@ -214,6 +214,12 @@ class App extends React.Component {
             </Route>
             <Route exact path="/Class203">
               <Class203 />
+            </Route>
+            <Route exact path="/Class307">
+              <Class307 />
+            </Route>
+            <Route exact path="/Class309">
+              <Class309 />
             </Route>
             <Route exact path="/Class509">
               <Class509 />

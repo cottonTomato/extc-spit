@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Container, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import LabGalleryInstrumentation from "../../container/gallery/LabGalleryInstrumentation";
+import LabGalleryInstrumentation from "../../container/gallery/LabGalleryControlSystem";
 
-class InstrumentationLab extends Component {
+class ControlSystemLab extends Component {
   render() {
     return (
       <Container>
         <h3 className="text-capitalize text-center mb-4 mt-4">
-          Instrumentation Lab
+          Control System Lab
         </h3>
 
         <Card className="mt-2">
@@ -66,4 +66,4 @@ class InstrumentationLab extends Component {
   }
 }
 
-export default InstrumentationLab;
+export default ControlSystemLab;
