@@ -20,7 +20,7 @@ class VLSILab extends Component {
                 Approximate Cost of the equipments in the lab: Rs. 57,10,819/-
               </h6>
               <br></br>
-              <h6>Name of the Lab Incharge:- Dr. Rajendra Sutar</h6>
+              <h6>Name of the Lab Incharge:- Dr. Prashant Kasambe</h6>
               <h6>Name of the Technical Asst.: Mrs. Aaditi Sandav</h6>
               <br></br>
               <p>
