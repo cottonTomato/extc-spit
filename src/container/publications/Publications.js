@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import course01 from "../../images/course01.jpeg";
-import { facultyPublicationData, facultyPublicationCitations } from "./publicationData.js"
+import {
+  facultyPublicationData,
+  facultyPublicationCitations,
+} from "./publicationData.js";
 import "./publications.css";
 
 export class publications extends Component {
@@ -34,37 +37,33 @@ export class publications extends Component {
             <thead>
               <tr>
                 <th rowSpan="2">Name of Faculty</th>
-                <th colSpan="2">2023-2022</th>
-                <th colSpan="3">2022-2021</th>
-                <th colSpan="2">2021-2020</th>
-                <th colSpan="2">Total</th>
+                <th colSpan="3">2023-2024</th>
+                <th colSpan="3">2022-2023</th>
+                <th colSpan="3">2021-2022</th>
               </tr>
               <tr>
                 <th>Journal</th>
                 <th>Conference</th>
-                <th>Book Chapter</th>
+                <th>Patent</th>
                 <th>Journal</th>
                 <th>Conference</th>
+                <th>Patent</th>
                 <th>Journal</th>
                 <th>Conference</th>
-                <th>Journal</th>
-                <th>Conference</th>
+                <th>Patent</th>
               </tr>
-              <tr>
-              </tr>
+              <tr></tr>
             </thead>
             <tbody>
-              {
-                facultyPublicationData.map(e => {
-                  return (
-                    <tr>
-                      {
-                        e.map(ee => <th>{ee}</th>)
-                      }
-                    </tr>
-                  )
-                })
-              }
+              {facultyPublicationData.map((e) => {
+                return (
+                  <tr>
+                    {e.map((ee) => (
+                      <th>{ee}</th>
+                    ))}
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
 
@@ -99,17 +98,15 @@ export class publications extends Component {
               </tr>
             </thead>
             <tbody>
-              {
-                facultyPublicationCitations.map(e => {
-                  return (
-                    <tr>
-                      {
-                        e.map(ee => <th>{ee}</th>)
-                      }
-                    </tr>
-                  )
-                })
-              }
+              {facultyPublicationCitations.map((e) => {
+                return (
+                  <tr>
+                    {e.map((ee) => (
+                      <th>{ee}</th>
+                    ))}
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
           <br></br>

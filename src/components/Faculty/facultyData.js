@@ -1,6 +1,18 @@
 // CREATED BY ATHARVA SHAH & ISHANI MATHUR FOR EXTC DEPARTMENT
 
-module.exports = [
+export default [
+  {
+    name: "Dr. Satyanarayana Bheesette",
+    designation: "Professor of Practice",
+    image: "https://i.ibb.co/Ny11ztr/satyanarayana-pic.png",
+    qualification: "Ph.D. in Physics (IIT Bombay)",
+    experience: "41+ Years",
+    expertise: "",
+    email: "bsn@spit.ac.in",
+    phone: "+91 9987537702",
+    url: "https://www.linkedin.com/in/satyanarayana-bheesette-177a8519/",
+    scholar: "https://scholar.google.com/citations?hl=en&user=ceeMQYMAAAAJ",
+  },
   {
     name: "Dr. Y.S. Rao",
     designation: "Vice Principal, Professor",
@@ -39,6 +51,19 @@ module.exports = [
     phone: "(022) – 69846900 EXT:",
     url: "https://www.linkedin.com/in/k-t-v-talele/",
     scholar: "https://scholar.google.com/citations?user=fP7xEcwAAAAJ&hl=en",
+  },
+  {
+    name: "Prof. Dayanand Ambawade",
+    designation: "Associate Professor",
+    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    qualification: "Ph.D",
+    experience: "20+ Years",
+    expertise:
+      "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
+    email: "dd_ambawade@spit.ac.in",
+    phone: "(022) – 69846900 EXT:69846900 EXT: ",
+    url: "https://www.linkedin.com/in/dayanand-ambawade-a491a754/",
+    scholar: "https://scholar.google.com/citations?user=jW3ErDgAAAAJ&hl=en",
   },
   {
     name: "Dr. Reena Sonkusare",
@@ -104,6 +129,20 @@ module.exports = [
     scholar: "https://scholar.google.co.in/citations?user=54Pbd6sAAAAJ&hl=en",
   },
   {
+    name: "Dr. Sujata Kulkarni",
+    designation: "Associate Professor",
+    image: "https://i.ibb.co/VJdJT0f/PXL-20240510-055823936.jpg",
+    qualification: "Ph. D",
+    experience: "20+ Years",
+    expertise:
+      "Pattern Recognition, Communication and Networking, Wireless Communication Networks, Embedded System",
+    email: "sujata_kulkarni@spit.ac.in",
+    phone: "(022) – 69846900 EXT:",
+    url: " linkedin.com/in/sujata-kulkarni-a8a94018b",
+    scholar:
+      "https://scholar.google.com/citations?hl=en&user=WdAgkpAAAAJ&view_op=list_works&citft=1&citft=2&email_for_op=sujata_kulkarni%40spit.ac.in&gmla=AJsN-F6KnSoSiZ9w_sHyuwU9SzOfEtR8lXUwn9nCkN5VCPhYAoK_T3vT4AOp8gGOR53K3_zjxYYa10Fi4Bhzxv3XCtjTbP-6cw",
+  },
+  {
     name: "Prof. Manish M. Parmar",
     designation: "Associate Professor",
     image: "https://i.ibb.co/Vp1mb2x/PXL-20240510-054928376.jpg",
@@ -145,11 +184,10 @@ module.exports = [
   },
 
   {
-    name: "Prof. Payal Shah",
+    name: "Dr. Payal Shah",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/YBSmbQb/PXL-20240510-055856262.jpg",
-    qualification:
-      "Ph.D",
+    qualification: "Ph.D",
     experience: "17 Years",
     expertise:
       "Electronic Devices and Circuits, Analog VLSI Design, Neuromorphic Engineering",
@@ -157,18 +195,6 @@ module.exports = [
     phone: "(022) – 69846900 EXT:",
     url: "https://www.linkedin.com/in/payal-shah-59563353",
     scholar: "https://scholar.google.co.in/citations?hl=en&user=RvYzqJoAAAAJ",
-  },
-  {
-    name: "Prof. G. T. Haldankar",
-    designation: "Assistant Professor",
-    image: "https://i.ibb.co/gSR7PN3/PXL-20240510-054657629.jpg",
-    qualification: "M.E. Electronics",
-    experience: "13 Years",
-    expertise: "Power Electronics",
-    email: "g_haldankar@spit.ac.in",
-    phone: "(022) – 69846900 EXT:",
-    url: "https://www.linkedin.com/in/govind-haldankar-3b67111ab/",
-    scholar: "https://scholar.google.co.in/citations?hl=en&user=Ve13BGsAAAAJ",
   },
   {
     name: "Prof. Manisha Bansode",
@@ -184,6 +210,18 @@ module.exports = [
     url: "https://www.linkedin.com/in/manisha-r-bansode-3aa901162/",
     scholar:
       "https://scholar.google.com/citations?hl=en&user=9dj8JjoAAAAJ&view_op=list_works&authuser=1&gmla=AH70aAXvRklAj9CGH8g1LhSd-khENCO7l4NvSCkT8LLwdYds5c-37CVE3jsJ1QExyENrMEq93o8mM-yphFuGRKLU_95JsMuRt-gWTg",
+  },
+  {
+    name: "Prof. G. T. Haldankar",
+    designation: "Assistant Professor",
+    image: "https://i.ibb.co/gSR7PN3/PXL-20240510-054657629.jpg",
+    qualification: "M.E. Electronics",
+    experience: "13 Years",
+    expertise: "Power Electronics",
+    email: "g_haldankar@spit.ac.in",
+    phone: "(022) – 69846900 EXT:",
+    url: "https://www.linkedin.com/in/govind-haldankar-3b67111ab/",
+    scholar: "https://scholar.google.co.in/citations?hl=en&user=Ve13BGsAAAAJ",
   },
   {
     name: "Prof. Milind Paraye",
@@ -227,7 +265,7 @@ module.exports = [
     name: "Prof. Pallavi Malame(Nair)",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/VmMvFk5/PXL-20240510-055334032.jpg",
-    qualification: "B.E; M.E",
+    qualification: "B.E; M.E (Pursuing Ph.D.)",
     experience: "9 Years",
     expertise:
       "Antennas & Microwave Engineering, Electromagnetics, Dielectric Spectroscopy",
@@ -274,31 +312,17 @@ module.exports = [
     scholar: "https://scholar.google.com/citations?user=N74EJiQAAAAJ&hl=en",
   },
   {
-    name: "Dr. Sujata Kulkarni",
-    designation: "Associate Professor",
-    image: "https://i.ibb.co/VJdJT0f/PXL-20240510-055823936.jpg",
-    qualification: "Ph. D",
-    experience: "20+ Years",
-    expertise:
-      "Pattern Recognition, Communication and Networking, Wireless Communication Networks, Embedded System",
-    email: "sujata_kulkarni@spit.ac.in",
+    name: "Dr. Shanti Swamy",
+    designation: "Assistant Professor",
+    image: "https://i.ibb.co/18bndfd/shanti-swamy-pic2.png",
+    qualification: "Ph.D.",
+    experience: "28 Years",
+    // expertise:
+    //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
+    email: "shanti.swamy@spit.ac.in",
     phone: "(022) – 69846900 EXT:",
-    url: " linkedin.com/in/sujata-kulkarni-a8a94018b",
-    scholar:
-      "https://scholar.google.com/citations?hl=en&user=WdAgkpAAAAJ&view_op=list_works&citft=1&citft=2&email_for_op=sujata_kulkarni%40spit.ac.in&gmla=AJsN-F6KnSoSiZ9w_sHyuwU9SzOfEtR8lXUwn9nCkN5VCPhYAoK_T3vT4AOp8gGOR53K3_zjxYYa10Fi4Bhzxv3XCtjTbP-6cw",
-  },
-  {
-    name: "Prof. Dayanand Ambawade",
-    designation: "Associate Professor",
-    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
-    qualification: "Ph.D",
-    experience: "20+ Years",
-    expertise:
-      "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
-    email: "dd_ambawade@spit.ac.in",
-    phone: "(022) – 69846900 EXT:69846900 EXT: ",
-    url: "https://www.linkedin.com/in/dayanand-ambawade-a491a754/",
-    scholar: "https://scholar.google.com/citations?user=jW3ErDgAAAAJ&hl=en",
+    url: "https://www.linkedin.com/in/dr-shanti-swamy-55b25a14/",
+    scholar: "https://scholar.google.co.in/citations?user=FxKdFxAAAAAJ&hl=en",
   },
   {
     name: "Prof. Kochar Inderkumar M.",
@@ -315,25 +339,12 @@ module.exports = [
     scholar: "https://scholar.google.com/citations?hl=en&user=OwUNG0EAAAAJ",
   },
   {
-    name: "Dr. Shanti Swamy",
-    designation: "Assistant Professor",
-    image: "https://i.ibb.co/18bndfd/shanti-swamy-pic2.png",
-    qualification: "Ph.D.",
-    experience: "28 Years",
-    // expertise:
-    //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
-    email: "shanti.swamy@spit.ac.in",
-    phone: "(022) – 69846900 EXT:",
-    url: "https://www.linkedin.com/in/dr-shanti-swamy-55b25a14/",
-    scholar: "https://scholar.google.co.in/citations?user=FxKdFxAAAAAJ&hl=en",
-  },
-  {
     name: "Dr. Pankaj Binda",
     // TODO: no designation
-    designation: "",
+    designation: "Assistant Professor",
     image: "https://i.ibb.co/B2fDsdD/pankaj-sir-pic3.png",
     qualification: "Ph.D.",
-    experience: "0 Years",
+    experience: "",
     // expertise:
     //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
     email: "pankaj.binda@spit.ac.in",
@@ -355,17 +366,5 @@ module.exports = [
     phone: "(022) – 69846900 EXT:",
     url: "https://www.linkedin.com/in/mrinmayi-patil-0860aa32b",
     scholar: "https://scholar.google.com/citations?user=huRBzKgAAAAJ&hl=en",
-  },
-  {
-    name: "Dr. Satyanarayana Bheesette",
-    designation: "Professor of Practice",
-    image: "",
-    qualification: "Ph.D. in Physics (IIT Bombay)",
-    experience: "41+ Years",
-    expertise: "",
-    email: "bsn@spit.ac.in",
-    phone: "+91 9987537702",
-    url: "",
-    scholar: "",
   },
 ];

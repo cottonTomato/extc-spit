@@ -44,4 +44,7 @@ export const IMAGES = [
   { src: "https://i.ibb.co/1nwVJsJ/img59.png", thumbnail: "" },
   { src: "https://i.ibb.co/dKg4tQx/img60.png", thumbnail: "" },
   // { src: "https://i.ibb.co/sp4n6hs/img73.png", thumbnail: "" }
+  { src: "https://i.ibb.co/S5QCf5R/image1.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/bdfymD9/image2.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/s3QFz7L/image3.jpg", thumbnail: "" },
 ];
