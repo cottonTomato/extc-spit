@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import course01 from "../../images/course01.jpeg";
-import { facultyPublicationData, facultyPublicationCitations } from "./publicationData.js"
+import { facultyPublicationData, facultyPublicationCitations, facultyPublicationData2 } from "./publicationData.js"
+import { publicationCalculateTotal } from "./publicationDataService.js";
+import pubCount from "../../images/Publication_Count.png";
+import pubStats from "../../images/Publication-stats.png";
+import facPubQual from "../../images/Faculty-pub-qual.png";
+import qualPubStat from "../../images/qual-pub-stat.png";
 import "./publications.css";
 
 export class publications extends Component {
@@ -30,21 +35,27 @@ export class publications extends Component {
           <h3 className="text-capitalize text-center mb-4 mt-4">
             Faculty Publications
           </h3>
-          <table className="faculty-publication-data">
+          {/* <table className="faculty-publication-data">
             <thead>
               <tr>
                 <th rowSpan="2">Name of Faculty</th>
-                <th colSpan="2">2023-2022</th>
-                <th colSpan="3">2022-2021</th>
+                <th colSpan="3">2024-2023</th>
+                <th colSpan="3">2023-2022</th>
+                <th colSpan="4">2022-2021</th>
                 <th colSpan="2">2021-2020</th>
                 <th colSpan="2">Total</th>
               </tr>
               <tr>
                 <th>Journal</th>
                 <th>Conference</th>
+                <th>Patent</th>
+                <th>Journal</th>
+                <th>Conference</th>
+                <th>Patent</th>
                 <th>Book Chapter</th>
                 <th>Journal</th>
                 <th>Conference</th>
+                <th>Patent</th>
                 <th>Journal</th>
                 <th>Conference</th>
                 <th>Journal</th>
@@ -55,7 +66,7 @@ export class publications extends Component {
             </thead>
             <tbody>
               {
-                facultyPublicationData.map(e => {
+                processPublicationData(facultyPublicationData).map(e => {
                   return (
                     <tr>
                       {
@@ -65,6 +76,53 @@ export class publications extends Component {
                   )
                 })
               }
+            </tbody>
+          </table> */}
+          <table className="faculty-publication-data custom-table">
+            <thead>
+              <tr>
+                <th rowSpan="2">Name of Faculty</th>
+                <th colSpan="3">2023-2024</th>
+                <th colSpan="3">2022-2023</th>
+                <th colSpan="3">2021-2022</th>
+                <th colSpan="3">Total</th>
+              </tr>
+              <tr>
+                <th>Journal</th>
+                <th>Conference</th>
+                <th>Patent</th>
+                <th>Journal</th>
+                <th>Conference</th>
+                <th>Patent</th>
+                <th>Journal</th>
+                <th>Conference</th>
+                <th>Patent</th>
+                <th>Journal</th>
+                <th>Conference</th>
+                <th>Patent</th>
+              </tr>
+            </thead>
+            <tbody>
+              {facultyPublicationData2.map((faculty, index) => {
+                const total = publicationCalculateTotal(faculty);
+                return (
+                  <tr key={index}>
+                    <td>{faculty['Name of Faculty']}</td>
+                    <td>{faculty['2023-2024'].Journal}</td>
+                    <td>{faculty['2023-2024'].Conference}</td>
+                    <td>{faculty['2023-2024'].Patent}</td>
+                    <td>{faculty['2022-2023'].Journal}</td>
+                    <td>{faculty['2022-2023'].Conference}</td>
+                    <td>{faculty['2022-2023'].Patent}</td>
+                    <td>{faculty['2021-2022'].Journal}</td>
+                    <td>{faculty['2021-2022'].Conference}</td>
+                    <td>{faculty['2021-2022'].Patent}</td>
+                    <td>{total.Journal}</td>
+                    <td>{total.Conference}</td>
+                    <td>{total.Patent}</td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
 
@@ -82,7 +140,7 @@ export class publications extends Component {
           {/*     title="Spreadsheet" */}
           {/*   /> */}
           {/* </div> */}
-          <table>
+          <table className="custom-table">
             <thead>
               <tr>
                 <th rowSpan="2">Name of faculty</th>
@@ -90,21 +148,21 @@ export class publications extends Component {
                 <th colSpan="3">Scopus</th>
               </tr>
               <tr>
-                <th>Ciattions</th>
+                <th>Citations</th>
                 <th>h-index</th>
                 <th>i10-index</th>
                 <th>Documents</th>
-                <th>Ciattions</th>
+                <th>Citations</th>
                 <th>h-index</th>
               </tr>
             </thead>
             <tbody>
               {
-                facultyPublicationCitations.map(e => {
+                facultyPublicationCitations.map((e, index) => {
                   return (
-                    <tr>
+                    <tr key={index}>
                       {
-                        e.map(ee => <th>{ee}</th>)
+                        e.map((ee, subIndex) => <td key={subIndex}>{ee}</td>)
                       }
                     </tr>
                   )
@@ -113,6 +171,38 @@ export class publications extends Component {
             </tbody>
           </table>
           <br></br>
+          <div class="fc">
+          <Container>
+      <Row className="g-4 mb-4">
+        <Col>
+          <Card className="custom-card">
+            <Card.Img variant="center" src={pubCount} className="custom-card-img" />
+          </Card>
+        </Col>
+      </Row>
+      <Row className="g-4 mb-4">
+        <Col>
+          <Card className="custom-card">
+            <Card.Img variant="center" src={pubStats} className="custom-card-img" />
+          </Card>
+        </Col>
+      </Row>
+      <Row className="g-4 mb-4">
+        <Col>
+          <Card className="custom-card">
+            <Card.Img variant="center" src={facPubQual} className="custom-card-img" />
+          </Card>
+        </Col>
+      </Row>
+      <Row className="g-4">
+        <Col>
+          <Card className="custom-card">
+            <Card.Img variant="center" src={qualPubStat} className="custom-card-img" />
+          </Card>
+        </Col>
+      </Row>
+    </Container>
+        </div>
           <br></br>
         </Container>
       </>

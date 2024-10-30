@@ -60,3 +60,31 @@ iframe::-webkit-scrollbar {
 .img-container:hover .course-item-icon {
   transform: translate(0, 0);
 }
+
+.custom-card {
+  width: 100%;
+  height: auto;
+}
+
+.custom-card-img {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 2px solid black;
+  /* Adjust the thickness as needed */
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+}
