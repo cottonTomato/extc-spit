@@ -46,7 +46,15 @@ class InnovativePage extends Component {
                     <tr key={practiceIndex}>
                       <td>{practice.index}</td>
                       <td>{practice.name}</td>
-                      <td>{practice.methods}</td>
+                      <td>
+                        {practice.hyperlink ? (
+                          <a href={practice.hyperlink} target="_blank" rel="noopener noreferrer">
+                            {practice.methods}
+                          </a>
+                        ) : (
+                          practice.methods
+                        )}
+                      </td>
                       <td>{practice.outcomes}</td>
                       <td>{practice.measures}</td>
                       {yearData.year === "2019-20" ||

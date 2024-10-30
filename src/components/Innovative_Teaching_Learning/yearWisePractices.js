@@ -1,3 +1,17 @@
+// 2023-24 imports
+import SAP2324 from "../../pdfs/innovative_teaching_learning/23-24/SAPInnovativeTeachingLearningActivityReport.pdf";
+import DSM2324 from "../../pdfs/innovative_teaching_learning/23-24/Innovative Teaching Learning on DSM 2024.pdf";
+import RTES2324 from "../../pdfs/innovative_teaching_learning/23-24/Innovating Teaching Learning on RTES 2024.pdf";
+import IOT2324 from "../../pdfs/innovative_teaching_learning/23-24/Innovating Teaching Learning on IoT 2024.pdf";
+import OFC2324 from "../../pdfs/innovative_teaching_learning/23-24/innovative_teaching_learning_OFC_CASESTUDY.pdf";
+// 2022-23 imports
+import ED2223 from "../../pdfs/innovative_teaching_learning/22-23/ED_2022-23_Report_Case_Study_Report.pdf";
+import OFC2223 from "../../pdfs/innovative_teaching_learning/22-23/Innovative Teaching Learning Pallavi Nair.pdf";
+import MC2223 from "../../pdfs/innovative_teaching_learning/22-23/13 Innovative Teaching learning Microcontroller 2022-23.pdf";
+// 2021-22 imports
+import MC2122 from "../../pdfs/innovative_teaching_learning/21-22/Innovative Teaching learning Microcontroller 2021-22.pdf";
+import VLAB2122 from "../../pdfs/innovative_teaching_learning/21-22/2_Report on Vlab ICMT.pdf";
+
 const yearWisePractices = [
   {
     year: "2023-24",
@@ -6,6 +20,7 @@ const yearWisePractices = [
         index: 1,
         name: "Prof. Priya Deshpande",
         methods: "SEM V, IoT Lab: Introduction of real life experiment in IoT Lab; Kahoot Quiz for every lab experiment",
+        hyperlink: IOT2324,
         outcomes: "Engagement, Application of Theory and Critical Thinking; Interative Learning, Competition & Collaboration",
         measures: "LAB ISE: Rubrics & Kahoot Quiz; Kahoot marks"
       },
@@ -13,6 +28,7 @@ const yearWisePractices = [
         index: null,
         name: "",
         methods: "SEM VI, RTES LAB: Open Book Assignment on design modelling of problem statement; MiniProject on RTOS problem statement",
+        hyperlink: RTES2324,
         outcomes: "Enhance students' application of theory, critical thinking; Demonstrating practical skills in task management and real-time system design",
         measures: "ISE Marks"
       },
@@ -41,6 +57,7 @@ const yearWisePractices = [
         index: 4,
         name: "Prof. Priya Deshpande, Dr. Amol Deshpande, Dr. Narendra Bhagat, Dr. Anand Mane, Dr. Santoshkumar Sabat",
         methods: "SEM II DSM LAB: Extra Experiment for Fast Learners",
+        hyperlink: DSM2324,
         outcomes: "Enhanced Understanding of Advanced Concepts, Improved Problem-Solving Skills, Promotion of Independent Learning, Recognition and Reward",
         measures: "LAB ISE and student Feedback"
       },
@@ -55,6 +72,7 @@ const yearWisePractices = [
         index: 6,
         name: "Pallavi Nair",
         methods: "OFC CASE STUDY, 45 minutes presentation challenge (team activity), activity for fast learner: Task given during IITB co-teaching",
+        hyperlink: OFC2324,
         outcomes: "Understanding real life scenario of OFC application and its implementation, analyzing the losses, creating report and presentation, Modal analysis of the optical fiber using MATLAB program",
         measures: "ISE Marks"
       },
@@ -62,6 +80,7 @@ const yearWisePractices = [
         index: 7,
         name: "Manisha Bansode",
         methods: "Apply Flipclassroom technique (Think Pair Share activity) in a SAP Class.",
+        hyperlink: SAP2324,
         outcomes: "Activity significantly enhanced students' understanding of the ear's acoustical properties, neural spiking mechanisms, and dynamic range management. This interactive approach improved their critical thinking, problem-solving, communication, and collaboration skills, resulting in increased engagement and positive feedback.",
         measures: "Indirectly with ESE marks"
       }
@@ -73,12 +92,9 @@ const yearWisePractices = [
       {
         index: 1,
         name: "Dr. Reena Sonkusare",
-        methods:
-          "Reveiw of Paper; Mini Project; Moodle based evaluation; Unique experiment data set",
-        outcomes:
-          "Promote lifelong learning, technical writing, and presentation skills; actively engage in team-based learning and promote self-learning.",
-        measures:
-          "Rubrics, implementation & demonstration of project, IEEE Paper & Patent; Class Assignment, Quiz; Viva, Authentic experimentation and Evaluation",
+        methods: "Reveiw of Paper; Mini Project; Moodle based evaluation; Unique experiment data set",
+        outcomes: "Promote lifelong learning, technical writing, and presentation skills; actively engage in team-based learning and promote self-learning.",
+        measures: "Rubrics, implementation & demonstration of project, IEEE Paper & Patent; Class Assignment, Quiz; Viva, Authentic experimentation and Evaluation",
       },
       {
         index: 2,
@@ -90,8 +106,7 @@ const yearWisePractices = [
       {
         index: 3,
         name: "Dr. Sukanya Kulkarni",
-        methods:
-          "Technical paper review activity in ITC and ADC course. Create your own Wiki assignment on applications of Error correction codes in ITC course",
+        methods: "Technical paper review activity in ITC and ADC course. Create your own Wiki assignment on applications of Error correction codes in ITC course",
         outcomes: "",
         measures: "Assessment using rubric and oral evaluation",
       },
@@ -106,30 +121,30 @@ const yearWisePractices = [
         index: 5,
         name: "Dr. Prashant Kasambe",
         methods: "Sem III Subject: Electronic Devices EC202",
-        outcomes:
-          "Analysis of electronic circuits with moderate level of complexity than a usual circuit in study",
+        hyperlink: ED2223,
+        outcomes: "Analysis of electronic circuits with moderate level of complexity than a usual circuit in study",
         measures: "Case Study",
       },
       {
         index: 6,
         name: "Dr. Prashant Kasambe/Dr. R. G. Sutar",
         methods: "Sem IV Subject: Analog Circuits EC502",
-        outcomes:
-          "Development of Block Diagram and Analysis of circuits based on Integrated Circuits",
+        outcomes: "Development of Block Diagram and Analysis of circuits based on Integrated Circuits",
         measures: "Case Study",
       },
       {
         index: 7,
         name: "Prof. Priya Deshpande",
         methods: "Sem IV Subject: Microcontroller",
-        outcomes:
-          "Demonstration on any given new Microcontroller development board with peer learning",
+        outcomes: "Demonstration on any given new Microcontroller development board with peer learning",
+        hyperlink: MC2223,
         measures: "Assessment using rubric and oral evaluation",
       },
       {
         index: 8,
         name: "Pallavi Nair",
         methods: "Optical Fibre Communication : Case Study , Microwave Communication : Mini Project",
+        hyperlink: OFC2223,
         outcomes: "Skill enhancement, real world problem solving, collaboration and team work",
         measures: "ISE Marks"
       }
@@ -192,6 +207,7 @@ const yearWisePractices = [
         name: "Prof. P. V. Kasambe",
         methods:
           "Case Study Presentation cum Implementation, Virtual Lab developed by Amrita Vishwa Vidyalya (Vlab) for conducting labs on Semiconductor material characterization techniques.",
+        hyperlink: VLAB2122,
         outcomes:
           "Engaged in learning and Team effort",
         measures: "Online",
@@ -199,8 +215,8 @@ const yearWisePractices = [
       {
         index: 8,
         name: "Prof. Priya Deshpande",
-        methods:
-          "Mini Project on given development board available in lab and not in syllabus",
+        methods: "Mini Project on given development board available in lab and not in syllabus",
+        hyperlink: MC2122,
         outcomes: "Engaged in learning and Team effort",
         measures: "Rubrics, Class Assignment, Quiz",
       },
