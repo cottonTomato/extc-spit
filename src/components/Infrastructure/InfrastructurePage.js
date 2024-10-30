@@ -356,6 +356,25 @@ class InfrastructurePage extends Component {
                 </Card.Body>
               </Card>
             </Col>
+            <Col>
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src="https://i.ibb.co/GC9mmkd/c12.png"
+                  className="img-fluid labBannerImg"
+                />
+                <Card.Body>
+                  <Card.Title>501: Classroom</Card.Title>
+                  <Link
+                    to="/Class501"
+                    className="btn btn-success"
+                    style={{ marginLeft: "40%" }}
+                  >
+                    Go to Class
+                  </Link>
+                </Card.Body>
+              </Card>
+            </Col>
           </Row>
         </Container>
       </>

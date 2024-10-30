@@ -61,6 +61,7 @@ import Lab508 from "./components/Infrastructure/Lab508";
 import Class307 from "./components/Infrastructure/Class307";
 import Class309 from "./components/Infrastructure/Class309";
 import Class203 from "./components/Infrastructure/Class203";
+import Class501 from "./components/Infrastructure/Class501";
 import Class509 from "./components/Infrastructure/Class509";
 import AlumniPage from "./components/Alumni/AlumniPage";
 import FETSPage from "./components/FETS/FETSPage";
@@ -220,6 +221,9 @@ class App extends React.Component {
             </Route>
             <Route exact path="/Class309">
               <Class309 />
+            </Route>
+            <Route exact path="/Class501">
+              <Class501 />
             </Route>
             <Route exact path="/Class509">
               <Class509 />
