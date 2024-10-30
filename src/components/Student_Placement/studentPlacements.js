@@ -4,6 +4,7 @@ import "./Placements.css";
 import BannerImg from "./companies.png";
 import PlacementImg from "./placementbar.png";
 import HigherStudies from "./HigherStudies2.png";
+import HigherStudiesImg from "./HigherStudiesImg.png"
 
 class StudentPlacements extends Component {
   render() {
@@ -174,11 +175,14 @@ class StudentPlacements extends Component {
         <Container>
           <br />
           <div>
-            <Image
-              src={HigherStudies}
-              fluid
-              style={{ height: "300px", display: "block", margin: "auto" }}
-            />
+            <Row className="justify-content-centeralign-items-center">
+              <Col xs={12} md={6}>
+                <Image src={HigherStudies} className="img-fluid" fluid />
+              </Col>
+              <Col xs={12} md={6}>
+                <Image src={HigherStudiesImg} className="img-fluid" fluid />
+              </Col>
+            </Row>
             <br />
             <br />
             <h1>Placement, Entrepreneurship and Higher Studies Data:</h1>
