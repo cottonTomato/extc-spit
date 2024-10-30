@@ -51,5 +51,7 @@ export const IMAGES = [
   },
  
   { src: "https://i.ibb.co/QH4ydkz/IMG-20240406-143451.jpg", thumbnail: "" },
-  { src: "https://i.ibb.co/K76tK6q/IMG-20240406-143521.jpg", thumbnail: "" }
+  { src: "https://i.ibb.co/K76tK6q/IMG-20240406-143521.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/ThPrYCj/lab-301-pic2.jpg", thumbnail: "" },
+  { src: "https://i.ibb.co/YDxf598/lab-301-pic1.jpg", thumbnail: "" },
 ];
