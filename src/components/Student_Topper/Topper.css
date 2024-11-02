@@ -1,3 +1,16 @@
+.outer-card {
+    border: 2px solid #d7d6d6 !important;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.year-title {
+    font-size:x-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+}
+
 .internship-container {
     margin-top: 2rem;
     margin-bottom: 2rem;
