@@ -8,7 +8,7 @@ class FiberOpticLab extends Component {
     return (
       <Container>
         <h3 className="text-capitalize text-center mb-4 mt-4">
-          Microwave and Fiber Optic Communication Lab
+          Microwave & Fiber Optics Lab
         </h3>
         <Card className="mt-2">
           <Card.Body>

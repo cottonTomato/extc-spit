@@ -8,7 +8,7 @@ class ElectronicsDeviceLab extends Component {
     return (
       <Container>
         <h3 className="text-capitalize text-center mb-4 mt-4">
-          Electronics and Devices Lab
+          Electronic Device & Circuits Lab
         </h3>
         <Card className="mt-2">
           <Card.Body>

@@ -8,7 +8,7 @@ class ControlSystemLab extends Component {
     return (
       <Container>
         <h3 className="text-capitalize text-center mb-4 mt-4">
-          Control System Lab
+          P.E. & Control System Lab
         </h3>
 
         <Card className="mt-2">

@@ -45,7 +45,7 @@ class InfrastructurePage extends Component {
                   className="img-fluid labBannerImg"
                 />
                 <Card.Body>
-                  <Card.Title>206: Control System Lab</Card.Title>
+                  <Card.Title>206: P.E. & Control System Lab</Card.Title>
                   <Link
                     to="/controlSystemLab"
                     className="btn btn-success"
@@ -122,7 +122,7 @@ class InfrastructurePage extends Component {
                   className="img-fluid labBannerImg"
                 />
                 <Card.Body>
-                  <Card.Title>306: Electronics & Devices Lab</Card.Title>
+                  <Card.Title>306: Electronic Device & Circuits Lab</Card.Title>
                   <Link
                     to="/ElectronicsDeviceLab"
                     className="btn btn-success"
@@ -142,7 +142,7 @@ class InfrastructurePage extends Component {
                   className="img-fluid labBannerImg"
                 />
                 <Card.Body>
-                  <Card.Title>310: Research Lab</Card.Title>
+                  <Card.Title>310: Research & Development Lab</Card.Title>
                   <Link
                     to="/researchLab"
                     className="btn btn-success"
@@ -226,7 +226,7 @@ class InfrastructurePage extends Component {
                 />
                 <Card.Body>
                   <Card.Title>
-                    504: Microwave and Fiber Optic Communication Lab
+                    504: Microwave & Fiber Optics Lab
                   </Card.Title>
                   <Link
                     to="/fiberOpticLab"
@@ -265,7 +265,7 @@ class InfrastructurePage extends Component {
                   className="img-fluid labBannerImg"
                 />
                 <Card.Body>
-                  <Card.Title>508: Wireless Communication Lab</Card.Title>
+                  <Card.Title>508: Wireless Networks Lab</Card.Title>
                   <Link
                     to="/Lab508"
                     className="btn btn-success"
