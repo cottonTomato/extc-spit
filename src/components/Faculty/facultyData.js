@@ -215,7 +215,7 @@ export default [
     name: "Prof. G. T. Haldankar",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/gSR7PN3/PXL-20240510-054657629.jpg",
-    qualification: "M.E. Electronics",
+    qualification: "M.E. Electronics (Pursuing Ph.D.)",
     experience: "13 Years",
     expertise: "Power Electronics",
     email: "g_haldankar@spit.ac.in",

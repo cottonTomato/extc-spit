@@ -28,6 +28,7 @@ export class PhD extends Component {
                     <th>Registration</th>
                     <th>Title</th>
                     <th>Ph.D. Status</th>
+                    <th>Guide</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -39,6 +40,7 @@ export class PhD extends Component {
                       <td>{phd.registration}</td>
                       <td>{phd.title}</td>
                       <td>{phd.status}</td>
+                      <td>{phd.guide}</td>
                     </tr>
                   ))}
                 </tbody>
