@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import logo from "../../images/spit-logo.jpg";
+import deptLogo from "../../images/dept-logo.png";
 import "./header.css";
 import { Link } from "react-router-dom";
 
@@ -9,17 +10,20 @@ export class Topbar extends Component {
     return (
       <>
         <Navbar
-          className="px-4 text-capitalize d-flex justify-content-center align-items-center"
+          className="px-4 d-flex justify-content-center align-items-center"
           style={{ backgroundColor: "white", minHeight: "100px" }}
         >
           <Navbar.Brand>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="clg logo" />
           </Navbar.Brand>
           <Navbar.Text className="ml-3">
-            <h1 className="text-capitalize mb-0 bigHeader">
+            <h1 className="mb-0 bigHeader">
               Department of Electronics & Telecommunication Engineering
             </h1>
           </Navbar.Text>
+          <Navbar.Brand>
+            <img src={deptLogo} alt="dept logo" className="dept-logo" />
+          </Navbar.Brand>
         </Navbar>
 
         <Navbar
@@ -93,7 +97,9 @@ export class Topbar extends Component {
                 </Link>
 
                 <Link to="/toppers">
-                  <NavDropdown.Item href="/toppers">Academic Toppers</NavDropdown.Item>
+                  <NavDropdown.Item href="/toppers">
+                    Academic Toppers
+                  </NavDropdown.Item>
                 </Link>
               </NavDropdown>
 
