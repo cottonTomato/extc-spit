@@ -355,7 +355,7 @@ export default [
   {
     name: "Prof. Mrinmayi Patil",
     // TODO: no designation
-    designation: "",
+    designation: "Assistant Professor",
     image: "https://i.ibb.co/sg9vCLd/mrinmayi-patil-pic2.png",
     qualification:
       "B.Tech (Electronics) , M.Tech (Electronics and Communications)",
