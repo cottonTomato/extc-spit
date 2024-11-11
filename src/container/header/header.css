@@ -20,6 +20,8 @@
 
 .dept-logo {
   height: 150px;
+  margin-left: 32px;
+  padding-bottom: 28px;
 }
 
 .nav-link a {
