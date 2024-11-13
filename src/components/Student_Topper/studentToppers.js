@@ -33,7 +33,7 @@ class StudentToppers extends Component {
                       <br />
                       <Card.Title>{category.category}</Card.Title>
                       <Card.Body>
-                        <table>
+                        <table className="topper-table">
                           <thead>
                             <tr>
                               <th>Rank</th>

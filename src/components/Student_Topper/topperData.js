@@ -1,9 +1,9 @@
 const toppers = [
   {
-    year: "May 2024",
+    year: "Batch 2020-24",
     data: [
       {
-        category: "B.Tech Electronics &Telecommunication Engineering Sem VIII",
+        category: "Electronics & Telecommunication",
         students: [
           {
             rank: 1,
@@ -26,7 +26,7 @@ const toppers = [
         ],
       },
       {
-        category: "B.Tech Electronics Engineering Sem VIII",
+        category: "Electronics",
         students: [
           {
             rank: 1,
@@ -51,10 +51,10 @@ const toppers = [
     ],
   },
   {
-    year: "May 2023",
+    year: "Batch 2019-23",
     data: [
       {
-        category: "B.Tech Electronics &Telecommunication Engineering Sem VIII",
+        category: "Electronics & Telecommunication",
         students: [
           {
             rank: 1,
@@ -77,7 +77,7 @@ const toppers = [
         ],
       },
       {
-        category: "B.Tech Electronics Engineering Sem VIII",
+        category: "Electronics",
         students: [
           {
             rank: 1,
@@ -102,10 +102,10 @@ const toppers = [
     ],
   },
   {
-    year: "May 2022",
+    year: "Batch 2018-22",
     data: [
       {
-        category: "B.Tech Electronics &Telecommunication Sem VIII",
+        category: "Electronics & Telecommunication",
         students: [
           {
             rank: 1,
@@ -128,7 +128,7 @@ const toppers = [
         ],
       },
       {
-        category: "B.Tech Electronics Engineering Sem VIII",
+        category: "Electronics",
         students: [
           {
             rank: 1,
