@@ -27,37 +27,43 @@ class StudentToppers extends Component {
             <>
               <Card className="outer-card mb-4" key={index}>
                 <p className="year-title">{year.year}</p>
-                {
-                  year.data.map((category, index) => (
-                    <>
-                      <Card className="inner-card mb-3" key={index}>
-                        <br />
-                        <Card.Title>{category.category}</Card.Title>
-                        <Card.Body>
-                          <table>
-                            <thead>
-                              <tr>
-                                <th>Rank</th>
-                                <th>Name of the Student</th>
-                                <th>CGPI</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {category.students.map((student, index) => (
-                                <tr key={index}>
-                                  <td>{student.rank}</td>
-                                  <td>{student.name}</td>
-                                  <td>{student.cgpi}</td>
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </Card.Body>
-                      </Card>
+                {year.data.map((category, index) => (
+                  <>
+                    <Card className="inner-card mb-3" key={index}>
                       <br />
-                    </>
-                  ))
-                }
+                      <Card.Title>{category.category}</Card.Title>
+                      <Card.Body>
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Rank</th>
+                              <th>Photo</th>
+                              <th>Name of the Student</th>
+                              <th>CGPI</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {category.students.map((student, index) => (
+                              <tr key={index}>
+                                <td>{student.rank}</td>
+                                <td>
+                                  <img
+                                    src={student.img}
+                                    className="topper-photu"
+                                    alt="some beautiful girl i crush idk"
+                                  />
+                                </td>
+                                <td>{student.name}</td>
+                                <td>{student.cgpi}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </Card.Body>
+                    </Card>
+                    <br />
+                  </>
+                ))}
               </Card>
             </>
           ))}
@@ -68,34 +74,3 @@ class StudentToppers extends Component {
 }
 
 export default StudentToppers;
-
-// cached code:
- //this.state.toppersData.map((category, index) => (
- //           <>
- //             <Card key={index}>
- //               <br />
- //               <Card.Title>{category.category}</Card.Title>
- //               <Card.Body>
- //                 <table>
- //                   <thead>
- //                     <tr>
- //                       <th>Rank</th>
- //                       <th>Name of the Student</th>
- //                       <th>CGPI</th>
- //                     </tr>
- //                   </thead>
- //                   <tbody>
- //                     {category.students.map((student, index) => (
- //                       <tr key={index}>
- //                         <td>{student.rank}</td>
- //                         <td>{student.name}</td>
- //                         <td>{student.cgpi}</td>
- //                       </tr>
- //                     ))}
- //                   </tbody>
- //                 </table>
- //               </Card.Body>
- //             </Card>
- //             <br />
- //           </>
- //         ))

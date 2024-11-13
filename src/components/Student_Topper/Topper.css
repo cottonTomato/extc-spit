@@ -16,6 +16,10 @@
     margin-bottom: 2rem;
 }
 
+.topper-photu {
+    width: 10rem
+}
+
 .internship-stats-container {
     display: flex;
     justify-content: center;
