@@ -17,7 +17,7 @@ export class Topbar extends Component {
             <img src={logo} alt="clg logo" />
           </Navbar.Brand>
           <Navbar.Text className="ml-3">
-            <h1 className="mb-0 bigHeader">
+            <h1 className="mb-0 bigHeader text-color-black">
               Department of Electronics & Telecommunication Engineering
             </h1>
           </Navbar.Text>
