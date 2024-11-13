@@ -200,8 +200,7 @@ export default [
     name: "Prof. Manisha Bansode",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/c1hMYHg/IMG-20240511-WA0001.jpg",
-    qualification:
-      "M.E (Electronics and Telecommunication Engineering) (pursuing Ph.D)",
+    qualification: "Ph.D",
     experience: "17 Years",
     expertise:
       "Communication Engineering, Electronics circuit design, Image Processing",
