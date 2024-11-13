@@ -1,11 +1,8 @@
 import React, { Component } from "react";
-import Gallery from "react-grid-gallery";
 import { IMAGES } from "./Data";
-import { Container, Row, Col, Button } from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Link } from "react-router-dom";
 
 class PhotoGallery extends Component {
   constructor(props) {
@@ -13,7 +10,6 @@ class PhotoGallery extends Component {
 
     this.state = {
       imageData: IMAGES.slice(0, 45),
-
     };
   }
 
@@ -34,8 +30,6 @@ class PhotoGallery extends Component {
     };
 
     const imageStyle = {
-      // maxWidth: "100%",
-      // maxHeight: "100%",
       width: "400px",
       margin: "0 auto",
     };
