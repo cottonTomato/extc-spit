@@ -58,6 +58,7 @@ import Lab205 from "./components/Infrastructure/Lab205";
 import Lab502 from "./components/Infrastructure/Lab502";
 import Lab507A from "./components/Infrastructure/Lab507A";
 import Lab508 from "./components/Infrastructure/Lab508";
+import LabPDC from "./components/Infrastructure/LabPDC";
 import Class307 from "./components/Infrastructure/Class307";
 import Class309 from "./components/Infrastructure/Class309";
 import Class203 from "./components/Infrastructure/Class203";
@@ -184,7 +185,7 @@ class App extends React.Component {
               <BEELab />
             </Route>
             <Route exact path="/VLSILab">
-              <VLSILab/>
+              <VLSILab />
             </Route>
             <Route exact path="/ElectronicsDeviceLab">
               <ElectronicsDeviceLab />
@@ -202,7 +203,7 @@ class App extends React.Component {
               <ControlSystemLab />
             </Route>
             <Route exact path="/Lab205">
-              <Lab205  />
+              <Lab205 />
             </Route>
             <Route exact path="/Lab507">
               <Lab507A />
@@ -212,6 +213,9 @@ class App extends React.Component {
             </Route>
             <Route exact path="/Lab508">
               <Lab508 />
+            </Route>
+            <Route exact path="/LabPDC">
+              <LabPDC />
             </Route>
             <Route exact path="/Class203">
               <Class203 />

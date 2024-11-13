@@ -276,6 +276,44 @@ class InfrastructurePage extends Component {
                 </Card.Body>
               </Card>
             </Col>
+            <Col>
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src="https://i.ibb.co/Tk4pfLb/image.png"
+                  className="img-fluid labBannerImg"
+                />
+                <Card.Body>
+                  <Card.Title>Idea Lab</Card.Title>
+                  <a
+                    href="https://www.spit.ac.in/idealab/"
+                    className="btn btn-success"
+                    style={{ marginLeft: "40%" }}
+                  >
+                    Go to Lab
+                  </a>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src="https://i.ibb.co/bsR6P6n/image.png"
+                  className="img-fluid labBannerImg"
+                />
+                <Card.Body>
+                  <Card.Title>Product Development Center</Card.Title>
+                  <Link
+                    to="/LabPDC"
+                    className="btn btn-success"
+                    style={{ marginLeft: "40%" }}
+                  >
+                    Go to Lab
+                  </Link>
+                </Card.Body>
+              </Card>
+            </Col>
           </Row>
 
           <h3 className="text-capitalize text-center mb-4 mt-4">CLASSROOMS</h3>
