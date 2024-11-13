@@ -56,7 +56,7 @@ const studentsData = [
   {
     id: 7,
     name: "Prathamesh Kulkarni",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Winner of Periperathon 1.0 conducted by AICTE SPICES SPIT, Mumbai",
@@ -65,7 +65,7 @@ const studentsData = [
   {
     id: 8,
     name: "Malay Phadke",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Winner of Kavach Hackathon organized by BPR&D, AICTE, I4C",
@@ -74,7 +74,7 @@ const studentsData = [
   {
     id: 9,
     name: "Aditya Nagane",
-    class: "S.Y",
+    class: "S.E",
     achievement: "Academic",
     awardDescription:
       "Winner of Microapp event of Voltus Midspark23 organized by College of Engineering, Pune",
@@ -83,7 +83,7 @@ const studentsData = [
   {
     id: 10,
     name: "Nidhish Dhadve, Henil Gandhi, Pratham Gajapure",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Finalists of Samriddhi (ECO-LUTION) organized by GIM (Goa Institute of Management)",
@@ -92,7 +92,7 @@ const studentsData = [
   {
     id: 11,
     name: "Nidhish Dhadve, Henil Gandhi, Nishant Chandeliya",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Winners of 'Cryptic Bonds' organized by GAEE IIFT KAKINADA",
@@ -101,7 +101,7 @@ const studentsData = [
   {
     id: 12,
     name: "Nishant Chandeliya, Henil Gandhi, Nidhish Dhadve, Aniket Kesarwani",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "First Runner up of Breakthrough organized by Entrepreneurial Passion and Innovation Club (EPIC) of IIM Visakhapatnam",
@@ -110,7 +110,7 @@ const studentsData = [
   {
     id: 13,
     name: "Aniket Kesarwani, Advait Khaire, Govind Kela",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Semi Finalist of Amaethon: The Food & Agribusiness Conclave organized by IIM Ahmedabad",
@@ -119,7 +119,7 @@ const studentsData = [
   {
     id: 14,
     name: "Nishant Chandeliya, Henil Gandhi, Nidhish Dhadve, Pratham Gajapure",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Second Runner up of Adomania: A Marketing Event Organized by VJTI, Mumbai",
@@ -128,7 +128,7 @@ const studentsData = [
   {
     id: 15,
     name: "Vedant Bhagwat, Yash Surve, Damodar Kamath, Harsh Gad, Het Gala, Parth Jadhav, Atharva Kadge, Sahil Gupta, Piyanshu",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Non-Academic",
     awardDescription:
       "Runner up of Intercollegiate Cricket organized by KJ Somaiya Vidyavihar, Mumbai",
@@ -137,7 +137,7 @@ const studentsData = [
   {
     id: 16,
     name: "Aryan Adav",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Non-Academic",
     awardDescription:
       "Winner of Video Content Competition organized by Larana, Inc",
@@ -146,7 +146,7 @@ const studentsData = [
   {
     id: 17,
     name: "Sejal Patil, Ayushi Naik, Aditi Ramugade",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Winner of Vishleshan: Annual Flagship Case Competition organized by VNIT Nagpur",
@@ -155,7 +155,7 @@ const studentsData = [
   {
     id: 18,
     name: "Malay Phadke",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Selected as MITACS Globalink Research Intern at University of Calgary, MITACS, Canada",
@@ -164,7 +164,7 @@ const studentsData = [
   {
     id: 19,
     name: "Nidhish Dhadve",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "2nd Runner up of Business Beacon organized by TECHFEST NMIMS, Mumbai",
@@ -173,7 +173,7 @@ const studentsData = [
   {
     id: 20,
     name: "Pratham Gajapure, Henil Gandhi, Nishant Chandeliya",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Finalist of Marketing Mavericks organized by IIFM Bhopal",
@@ -182,7 +182,7 @@ const studentsData = [
   {
     id: 21,
     name: "Pratham Gajapure, Henil Gandhi, Nishant Chandeliya",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Finalist of Resilient Routes-Sustainable Supply Chain Challenge organized by IIFM Bhopal",
@@ -191,7 +191,7 @@ const studentsData = [
   {
     id: 22,
     name: "Ayushi Naik, Gauri Narkar",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Winner of Consulting Challenge organized by MPSTME, NMIMS Mumbai",
@@ -200,7 +200,7 @@ const studentsData = [
   {
     id: 23,
     name: "Gayatri Tajne",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription: "1st Runner up of DataDecode organized by IIT Delhi",
     date: "2nd March 2024",
@@ -208,7 +208,7 @@ const studentsData = [
   {
     id: 24,
     name: "Mayuresh Pitale, Sridhar Sundar",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Finalist of UNPLUGGED 1.0 Hackathon organized by IETE- ISF DJSCE, Vile Parle",
@@ -217,7 +217,7 @@ const studentsData = [
   {
     id: 25,
     name: "Nidhish Dhadve",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "1st Runner up of Yashasvi - Make Your Mark- National Case Study competition organized by Symbiosis Centre For Management and Human Resource Development department, Symbiosis Institute of Business Management, Pune",
@@ -226,7 +226,7 @@ const studentsData = [
   {
     id: 26,
     name: "Vedant Bhagwat, Omkar Lokre, Yash Ugale, Gandhar Kulkarni",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "2nd Runner up of National Case Study organized by E-summit by E-Cell S.P.I.T.",
@@ -235,7 +235,7 @@ const studentsData = [
   {
     id: 27,
     name: "Aparna Jha",
-    class: "S.Y",
+    class: "S.E",
     achievement: "Academic",
     awardDescription:
       "Consolation prize winner of Sustainability Case Study event of Innovation for India event organized by ICFAI Business School, Pune",
@@ -244,7 +244,7 @@ const studentsData = [
   {
     id: 28,
     name: "Keshav Jha, Manaswi Rajput Prneeka Ballabh",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "Selected as one of the winning entries in the VIVIBHA Vision for Viksit Bharat Research Paper Writing Competition (Konkan Prant Level) for the topic of Skymapper:  an antenna to track satellite from earth.",
@@ -253,13 +253,21 @@ const studentsData = [
   {
     id: 29,
     name: "Smit Gawade, Eshaan Golatekar, Soham Gondhalekar",
-    class: "T.Y",
+    class: "T.E",
     achievement: "Academic",
     awardDescription:
       "1st runner up of ISB business case study competition Organized by ISB, Hydrabad",
     date: "19th October 2024",
   },
+  {
+    id: 1,
+    name: "Mandar Dumbre, Aishwarya Bichave, Arya Patkar",
+    class: "T.E",
+    achievement: "Academic",
+    awardDescription:
+      "1st place in the National Case Study Competition - MarkIIT, held at SAMANVAY'24, the prestigious annual business fest organized by the Department of Management Studies, IIT Madras",
+    date: "9th November 2024",
+  },
 ];
 
 export default studentsData;
-
