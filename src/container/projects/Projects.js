@@ -110,11 +110,6 @@ export class projects extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href={ETRX_Major_23_24_pdf} target="_blank">
-                    <h2>MAJOR PROJECTS LIST 2023-24 (ETRX)</h2>
-                  </a>
-                </li>
-                <li>
                   <a href={EXTC_Major_22_23_pdf} target="_blank">
                     <h2>MAJOR PROJECTS LIST 2022-23 (EXTC)</h2>
                   </a>
