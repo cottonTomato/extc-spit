@@ -1,5 +1,4 @@
 export const IMAGES = [
-  { src: "", thumbnail: "" },
-  { src: "", thumbnail: "" },
-  { src: "", thumbnail: "" },
+  { src: "https://i.ibb.co/MkzdZHz/image1.png", thumbnail: "" },
+  { src: "https://i.ibb.co/WVcTYDX/image2.png", thumbnail: "" },
 ];
