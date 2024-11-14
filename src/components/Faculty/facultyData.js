@@ -197,7 +197,7 @@ export default [
     scholar: "https://scholar.google.co.in/citations?hl=en&user=RvYzqJoAAAAJ",
   },
   {
-    name: "Prof. Manisha Bansode",
+    name: "Dr. Manisha Bansode",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/c1hMYHg/IMG-20240511-WA0001.jpg",
     qualification: "Ph.D",
