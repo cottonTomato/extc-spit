@@ -324,11 +324,11 @@ export default [
     scholar: "https://scholar.google.co.in/citations?user=FxKdFxAAAAAJ&hl=en",
   },
   {
-    name: "Prof. Kochar Inderkumar M.",
+    name: "Dr. Inderkumar M. Kochar ",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/6nCWqWN/ik-sir-fac-pic-jpeg.png",
     qualification:
-      "M. Tech (Communication Systems), Pursuing Ph.D. (RF & Microwave Engineering)",
+      "M. Tech (Communication Systems), PhD - IIT Roorkee (RF & Microwave Engineering)",
     experience: "12+ Years",
     // expertise:
     //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
