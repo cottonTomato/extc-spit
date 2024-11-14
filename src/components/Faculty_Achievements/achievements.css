@@ -1,0 +1,12 @@
+h1 {
+  text-align: center !important;
+  color: black !important;
+}
+
+table {
+  border-color: black !important;
+}
+
+td {
+  padding: 1rem !important;
+}
