@@ -31,14 +31,13 @@ class StudentToppers extends Component {
                   <>
                     <Card className="inner-card mb-3" key={index}>
                       <br />
-                      <Card.Title>{category.category}</Card.Title>
+                      <Card.Title className="category">{category.category}</Card.Title>
                       <Card.Body>
                         <table className="topper-table">
                           <thead>
                             <tr>
                               <th>Rank</th>
-                              <th>Photo</th>
-                              <th>Name of the Student</th>
+                              <th colSpan="2">Details of the Student</th>
                               <th>CGPI</th>
                             </tr>
                           </thead>
@@ -50,10 +49,10 @@ class StudentToppers extends Component {
                                   <img
                                     src={student.img}
                                     className="topper-photu"
-                                    alt="some beautiful girl i crush idk"
+                                    alt="student-pic"
                                   />
                                 </td>
-                                <td>{student.name}</td>
+                                <td className="">{student.name}</td>
                                 <td>{student.cgpi}</td>
                               </tr>
                             ))}

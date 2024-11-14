@@ -70,12 +70,12 @@ class LabPDC extends Component {
               </div>
 
               <div className="section">
-                <h5>
-                  Internship Generated (1<sup>st</sup> Jan to 30<sup>th</sup>{" "}
-                  June 2024)
-                </h5>
-                <p>Completed.</p>
-                <p>(Report Attached in Annexure-1)</p>
+                <p>
+                  <b>
+                    Internship Generated (1<sup>st</sup> Jan to 30<sup>th</sup>{" "}
+                    June 2024)
+                  </b>
+                </p>
               </div>
 
               <div className="section">

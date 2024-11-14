@@ -3,7 +3,7 @@ const toppers = [
     year: "Batch 2020-24",
     data: [
       {
-        category: "Electronics & Telecommunication",
+        category: "Electronics & Telecommunication Engineering",
         students: [
           {
             rank: 1,
@@ -26,7 +26,7 @@ const toppers = [
         ],
       },
       {
-        category: "Electronics",
+        category: "Electronics Engineering",
         students: [
           {
             rank: 1,
@@ -54,7 +54,7 @@ const toppers = [
     year: "Batch 2019-23",
     data: [
       {
-        category: "Electronics & Telecommunication",
+        category: "Electronics & Telecommunication Engineering",
         students: [
           {
             rank: 1,
@@ -77,7 +77,7 @@ const toppers = [
         ],
       },
       {
-        category: "Electronics",
+        category: "Electronics Engineering",
         students: [
           {
             rank: 1,
@@ -105,7 +105,7 @@ const toppers = [
     year: "Batch 2018-22",
     data: [
       {
-        category: "Electronics & Telecommunication",
+        category: "Electronics & Telecommunication Engineering",
         students: [
           {
             rank: 1,
@@ -128,7 +128,7 @@ const toppers = [
         ],
       },
       {
-        category: "Electronics",
+        category: "Electronics Engineering",
         students: [
           {
             rank: 1,
