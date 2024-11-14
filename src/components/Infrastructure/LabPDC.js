@@ -16,7 +16,7 @@ class LabPDC extends Component {
             <br /> <br />
             <div className="container">
               <div className="header">
-                <h4>Submitted by: Dr Rajendra R Sawant</h4>
+                <h4>Mentored by Dr Rajendra R Sawant</h4>
               </div>
 
               <div className="section">
