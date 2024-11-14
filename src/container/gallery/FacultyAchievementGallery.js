@@ -12,8 +12,8 @@ class FacultyAchievementGallery extends Component {
     super(props);
 
     this.state = {
-      imageData: IMAGES.slice(0, 10),
-      
+      imageData: IMAGES.slice(0, 20),
+
     };
   }
 

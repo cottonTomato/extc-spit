@@ -3,45 +3,35 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "./achievements.css";
-import FacultyAchievementsData from "./achievements";
 import FacultyAchievementGallery from "./../../container/gallery/FacultyAchievementGallery";
+import { AchievementsTable, FacultyAchievementsData } from "./achievements";
 
 class FacultyAchievements extends Component {
   render() {
     return (
       <>
-       <Container className="global-container text-center" fluid>
+        <Container className="global-container text-center" fluid>
           <Row>
             <Col>
               <h3>FACULTY ACHIEVEMENTS</h3>
             </Col>
           </Row>
         </Container>
-      <Container >
+        <Container >
 
-        <Card className="mt-2">
-          <Card.Body>
-            <FacultyAchievementGallery />
-            <br /> <br />
-            <table className="table table-striped">
-            <thead>
-                <tr>
-                  <th>Sr.No.</th>
-                  <th>Achievements</th>
-                </tr>
-              </thead>
-              <tbody>
-                {FacultyAchievementsData.map((faculty) => (
-                  <tr key={faculty.id}>
-                    <td>{faculty.id}</td>
-                    <td>{faculty.text}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </Card.Body>
-        </Card>
-      </Container>
+          <Card className="mt-2">
+            <Card.Body>
+              <FacultyAchievementGallery />
+              <br /> <br />
+              <div>
+                <AchievementsTable title="Sponsored Projects / Grants Received" data={FacultyAchievementsData.sponsoredProjects} />
+                <AchievementsTable title="Patents Granted" data={FacultyAchievementsData.patentsGranted} />
+                <AchievementsTable title="Patents Published" data={FacultyAchievementsData.patentsPublished} />
+                <AchievementsTable title="Faculty Recognitions and Awards" data={FacultyAchievementsData.recognitionsAndAwards} />
+              </div>
+            </Card.Body>
+          </Card>
+        </Container>
       </>
     );
   }
