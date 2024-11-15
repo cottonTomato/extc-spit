@@ -70,11 +70,7 @@ export class Topbar extends Component {
                     Achievements
                   </NavDropdown.Item>
                 </Link>
-                <Link to="/faculty-as-enterpreneur">
-                  <NavDropdown.Item href="/faculty-as-enterpreneur">
-                    Enterpreneur Faculty
-                  </NavDropdown.Item>
-                </Link>
+
               </NavDropdown>
 
               <NavDropdown title="Students" id="students-dropdown">
@@ -120,6 +116,11 @@ export class Topbar extends Component {
                 <Link to="/consultancy">
                   <NavDropdown.Item href="/consultancy">
                     Consultancy/Funded/Sponsored Projects
+                  </NavDropdown.Item>
+                </Link>
+                <Link to="/faculty-as-enterpreneur">
+                  <NavDropdown.Item href="/faculty-as-enterpreneur">
+                    Faculty as Enterpreneur
                   </NavDropdown.Item>
                 </Link>
               </NavDropdown>
