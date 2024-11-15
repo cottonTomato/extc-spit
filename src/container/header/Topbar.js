@@ -93,7 +93,7 @@ export class Topbar extends Component {
 
                 <Link to="/enterpreneurship">
                   <NavDropdown.Item href="/enterpreneurship">
-                    Enterpreneurship
+                    Entrepreneurship
                   </NavDropdown.Item>
                 </Link>
 

@@ -10,7 +10,7 @@ class FacultyEnterpreneur extends Component {
         <Container className="global-container text-center" fluid>
           <Row>
             <Col>
-              <h3>FACULTY AS ENTERPRENEUR</h3>
+              <h3>FACULTY AS ENTREPRENEUR</h3>
             </Col>
           </Row>
         </Container>
