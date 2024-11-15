@@ -328,7 +328,7 @@ export default [
     designation: "Assistant Professor",
     image: "https://i.ibb.co/6nCWqWN/ik-sir-fac-pic-jpeg.png",
     qualification:
-      "M. Tech (Communication Systems), PhD - IIT Roorkee (RF & Microwave Engineering)",
+      "Ph.D. (IIT Roorkee)",
     experience: "12+ Years",
     // expertise:
     //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",

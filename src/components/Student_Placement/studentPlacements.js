@@ -134,25 +134,25 @@ class StudentPlacements extends Component {
         <Container className="flex-center-container">
           <h1>OUR STUDENTS ARE PLACED AT</h1>
           <Col className="flex-center" xs={12} md={8}>
-            <Image src={BannerImg} className="img-fluid text-center" fluid />
+            <Image src={BannerImg} className="img-fluid" fluid />
           </Col>
           <br />
           <h1>PLACEMENT STATISTICS</h1>
           <Row className="justify-content-centeralign-items-center">
             <Col xs={12} md={6}>
-              <Image src={PlacementImg} className="img-fluid" fluid />
+              <Image src={PlacementImg} className="img-fluid" style={{ height: "350px" }} fluid />
             </Col>
             <Col xs={12} md={6}>
-              <Image src="https://i.ibb.co/YQq3Wtm/salary-deets.png" className="img-fluid img-fluid-border" fluid />
+              <Image src="https://i.ibb.co/yB4M8Bv/salary-deets-2.png" className="img-fluid img-fluid-border" style={{ height: "350px" }} fluid />
             </Col>
           </Row>
           <h1>CATEGORY WISE STATISTICS</h1>
           <Row className="justify-content-centeralign-items-center">
             <Col xs={12} md={6}>
-              <Image src="https://i.ibb.co/y4jqdsC/place-n-higher.png" className="img-fluid img-fluid-border" fluid />
+              <Image src="https://i.ibb.co/8dvyG3d/place-n-higher-3.png" className="img-fluid img-fluid-border" style={{ height: "350px" }} fluid />
             </Col>
             <Col xs={12} md={6}>
-              <Image src="https://i.ibb.co/sjqCnQ5/category-wise.png" className="img-fluid img-fluid-border" fluid />
+              <Image src="https://i.ibb.co/KKW6CdP/category-wise2.png" className="img-fluid img-fluid-border" style={{ height: "350px" }} fluid />
             </Col>
           </Row>
           <br />
@@ -189,14 +189,17 @@ class StudentPlacements extends Component {
         <Container>
           <br />
           <div>
-            <Row className="justify-content-centeralign-items-center">
-              <Col xs={12} md={6}>
+            <Container className="flex-center-container">
+              <h1>OUR STUDENTS GO ON TO STUDY AT</h1>
+              <Col className="flex-center" xs={12} md={8}>
                 <Image src={HigherStudies} className="img-fluid" fluid />
               </Col>
+              <br />
+              <h1>HIGHER STUDIES STATISTICS</h1>
               <Col xs={12} md={6}>
-                <Image src="https://i.ibb.co/pwM7Gqj/higher-stud.png" className="img-fluid img-fluid-border" fluid />
+                <Image src="https://i.ibb.co/pwM7Gqj/higher-stud.png" className="img-fluid" style={{ height: "350px" }} fluid />
               </Col>
-            </Row>
+            </Container>
             <br />
             <br />
             <h1>Placement, Entrepreneurship and Higher Studies Data:</h1>
