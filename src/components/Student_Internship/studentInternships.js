@@ -23,51 +23,22 @@ class StudentInternships extends Component {
               <h3 className="text-center mb-4 mt-4">
                 OUR STUDENTS ARE INTERNS AT
               </h3>
-              <Image src={InternImg} fluid style={{ height: "300px" }} />
+              <p style={{ fontSize: "25px" }}><b>Research Internships</b></p>
+              <Image src="https://i.ibb.co/w0LcYyh/research.png" fluid style={{ width: "100rem" }} />
               <br />
               <br />
-              <h3 className="text-center mb-4">6-MONTH INTERNSHIP</h3>
               <br />
+              <p style={{ fontSize: "25px" }}><b>Industrial Internships</b></p>
+              <Image src="https://i.ibb.co/23CCRCs/industrial.png" fluid style={{ width: "100rem" }} />
+              <br />
+              <br />
+              <br />
+              <br />
+              {/*<h3 className="text-center mb-4">6-MONTH INTERNSHIP</h3>*/}
+              {/*<p style={{ fontSize: "25px" }}><b>6-Month Internships Statistics</b></p>*/}
               <div className="internship-stats-container d-flex justify-content-center align-items-center">
-                <div className="mr-4">
-                  <Table
-                    bordered
-                    hover
-                    responsive
-                    className="student-internship-table mb-4"
-                  >
-                    <thead className="thead">
-                      <tr>
-                        <th>Year</th>
-                        <th>Number of Students</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>2023-24</td>
-                        <td>62</td>
-                      </tr>
-                      <tr>
-                        <td>2022-23</td>
-                        <td>71</td>
-                      </tr>
-                      <tr>
-                        <td>2021-22</td>
-                        <td>59</td>
-                      </tr>
-                      <tr>
-                        <td>2020-21</td>
-                        <td>76</td>
-                      </tr>
-                      <tr>
-                        <td>2019-20</td>
-                        <td>52</td>
-                      </tr>
-                    </tbody>
-                  </Table>
-                </div>
                 <div>
-                  <Image src={InternStats} fluid />
+                  <Image src="https://i.ibb.co/QjhG7Xd/internchart.png" fluid />
                 </div>
               </div>
             </Col>

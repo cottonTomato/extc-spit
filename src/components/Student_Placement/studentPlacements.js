@@ -131,18 +131,32 @@ class StudentPlacements extends Component {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="flex-center-container">
+          <h1>OUR STUDENTS ARE PLACED AT</h1>
+          <Col className="flex-center" xs={12} md={8}>
+            <Image src={BannerImg} className="img-fluid text-center" fluid />
+          </Col>
           <br />
+          <h1>PLACEMENT STATISTICS</h1>
           <Row className="justify-content-centeralign-items-center">
-            <Col xs={12} md={6}>
-              <Image src={BannerImg} className="img-fluid" fluid />
-            </Col>
             <Col xs={12} md={6}>
               <Image src={PlacementImg} className="img-fluid" fluid />
             </Col>
+            <Col xs={12} md={6}>
+              <Image src="https://i.ibb.co/YQq3Wtm/salary-deets.png" className="img-fluid img-fluid-border" fluid />
+            </Col>
+          </Row>
+          <h1>CATEGORY WISE STATISTICS</h1>
+          <Row className="justify-content-centeralign-items-center">
+            <Col xs={12} md={6}>
+              <Image src="https://i.ibb.co/y4jqdsC/place-n-higher.png" className="img-fluid img-fluid-border" fluid />
+            </Col>
+            <Col xs={12} md={6}>
+              <Image src="https://i.ibb.co/sjqCnQ5/category-wise.png" className="img-fluid img-fluid-border" fluid />
+            </Col>
           </Row>
           <br />
-          <h3>Placement Statistics (Dept.)</h3>
+          {/* <h3>Placement Statistics</h3>
           <table className="table">
             <thead>
               <tr>
@@ -162,8 +176,8 @@ class StudentPlacements extends Component {
                 </tr>
               ))}
             </tbody>
-          </table>
-          <br />
+          </table> 
+          <br /> */}
         </Container>
         <Container className="global-container text-center" fluid>
           <Row>
@@ -180,7 +194,7 @@ class StudentPlacements extends Component {
                 <Image src={HigherStudies} className="img-fluid" fluid />
               </Col>
               <Col xs={12} md={6}>
-                <Image src={HigherStudiesImg} className="img-fluid" fluid />
+                <Image src="https://i.ibb.co/pwM7Gqj/higher-stud.png" className="img-fluid img-fluid-border" fluid />
               </Col>
             </Row>
             <br />
