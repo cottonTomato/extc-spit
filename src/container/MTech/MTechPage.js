@@ -2,25 +2,24 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import course01 from "../../images/course01.jpeg";
 import "./MTech.css";
-import MTech_EXTC_Scheme from  "../../pdfs/mtech-extc-scheme-2020.pdf";
+import MTech_EXTC_Scheme from "../../pdfs/mtech-extc-scheme-2020.pdf";
 import MTech_Syllabus from "../../pdfs/mtech-syllabus.pdf";
+import MTech_TimeTable from "../../pdfs/mtech-time-table.pdf";
 
 export class MTech extends Component {
   render() {
-
     return (
-      <section >
+      <section>
         <Container className="global-container text-center" fluid>
-            <Row>
-              <Col>
-                <h3>M .Tech PROGRAM</h3>
-              </Col>
-            </Row>
-          </Container>
+          <Row>
+            <Col>
+              <h3>M. Tech PROGRAM</h3>
+            </Col>
+          </Row>
+        </Container>
         <Container>
           <Row>
             <Col xs={10} sm={6} className="mx-auto text-center course-title">
-             
               <p
                 style={{
                   borderTop: "3px solid white",
@@ -44,9 +43,15 @@ export class MTech extends Component {
                 <div className="mtech-item">
                   {/* <h1>Syllabus</h1> */}
 
-                  <a href={MTech_EXTC_Scheme} target="_blank"><h2>Curriculum Scheme</h2></a>
-                  <a href={MTech_Syllabus} target="_blank"><h2>Syllabus</h2></a>
-
+                  <a href={MTech_EXTC_Scheme} target="_blank">
+                    <h2>Curriculum Scheme</h2>
+                  </a>
+                  <a href={MTech_Syllabus} target="_blank">
+                    <h2>Syllabus</h2>
+                  </a>
+                  <a href={MTech_TimeTable} target="_blank">
+                    <h2>Time Table</h2>
+                  </a>
                 </div>
               </div>
             </Col>
