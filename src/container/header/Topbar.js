@@ -154,6 +154,11 @@ export class Topbar extends Component {
                     Department Library
                   </NavDropdown.Item>
                 </Link>
+                <Link to="/technical-activities">
+                  <NavDropdown.Item href="/technical-activities">
+                    Technical Activities
+                  </NavDropdown.Item>
+                </Link>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
