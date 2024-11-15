@@ -1,22 +1,10 @@
 import React, { Component } from "react";
-import Gallery from "react-grid-gallery";
 import { IMAGES } from "./LibraryPhotoData.js";
-import { Container, Row, Col, Button } from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Link } from "react-router-dom";
 
 class LibraryGallery extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      imageData: IMAGES.slice(0, 2),
-
-    };
-  }
-
   render() {
     const settings = {
       dots: true,
@@ -34,8 +22,6 @@ class LibraryGallery extends Component {
     };
 
     const imageStyle = {
-      // maxWidth: "100%",
-      // maxHeight: "100%",
       width: "400px",
       margin: "0 auto",
     };
@@ -43,7 +29,7 @@ class LibraryGallery extends Component {
     return (
       <section id="gallery" style={{ backgroundColor: "#fff" }}>
         <Slider {...settings}>
-          {this.state.imageData.map((image, index) => (
+          {IMAGES.map((image, index) => (
             <div key={index} style={centerStyle}>
               <img src={image.src} alt={image.src} style={imageStyle} />
             </div>
