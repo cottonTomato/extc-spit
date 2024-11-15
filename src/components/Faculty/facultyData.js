@@ -53,11 +53,11 @@ export default [
     scholar: "https://scholar.google.com/citations?user=fP7xEcwAAAAJ&hl=en",
   },
   {
-    name: "Prof. Dayanand Ambawade",
+    name: "Dr. Dayanand Ambawade",
     designation: "Associate Professor",
     image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
     qualification: "Ph.D",
-    experience: "20+ Years",
+    experience: "26 Years",
     expertise:
       "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
     email: "dd_ambawade@spit.ac.in",
