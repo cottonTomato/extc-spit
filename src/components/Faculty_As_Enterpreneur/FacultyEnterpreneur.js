@@ -19,22 +19,22 @@ class FacultyEnterpreneur extends Component {
           <Row lg={2}>
             {data.map((e) => {
               return (
-                <Col className="d-flex">
+                <Col className="d-flex" style={{ padding: "5px" }}>
                   <Card className="info-container">
-                    <Card.Img className="faculty-img" variant="top" src={e.facultyImage} />
+                    <Card.Img className="faculty-img padding" variant="top" src={e.facultyImage} />
                     <Card.Body>
-                      <Card.Title>{e.faculty}</Card.Title>
-                      <Card.Title>{e.position}</Card.Title>
-                      <Card.Title>{e.company}</Card.Title>
+                      <Card.Title className="padding-2" style={{ fontSize: "1.75rem" }}>{e.faculty}</Card.Title>
+                      <Card.Title className="">{e.position}</Card.Title>
+                      <Card.Title className="padding-2" style={{ fontSize: "1.5rem", color: "navy" }}>{e.company}</Card.Title>
                       <Card.Text>
                         {e.text}
-                      </Card.Text>
+                      </ Card.Text>
                     </Card.Body>
 
-                    <Row className="justify-content-centeralign-items-center">
+                    <Row className="justify-content-center align-items-center row-container">
                       <Image src={e.logoImage} className="width-strainer" style={{ height: "350px" }} fluid />
                       <a href={e.link}>
-                        <h2>{e.link}</h2>
+                        <p style={{ color: "blue", fontSize: "1.5rem" }}>{e.shortlink}</p>
                       </a>
                     </Row>
                   </Card>
