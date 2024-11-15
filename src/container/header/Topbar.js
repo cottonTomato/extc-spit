@@ -142,6 +142,9 @@ export class Topbar extends Component {
               <Link to="/fets">
                 <Nav.Link href="/fets">Committees</Nav.Link>
               </Link>
+              <Link to="/technical-activities">
+                <Nav.Link href="/technical-activities">Technical Activities</Nav.Link>
+              </Link>
 
               <NavDropdown title="Other" id="other-dropdown">
                 <Link to="/innovative-teaching-learning">
@@ -152,11 +155,6 @@ export class Topbar extends Component {
                 <Link to="/department-library">
                   <NavDropdown.Item href="/department-library">
                     Department Library
-                  </NavDropdown.Item>
-                </Link>
-                <Link to="/technical-activities">
-                  <NavDropdown.Item href="/technical-activities">
-                    Technical Activities
                   </NavDropdown.Item>
                 </Link>
               </NavDropdown>
