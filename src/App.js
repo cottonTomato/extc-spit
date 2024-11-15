@@ -31,6 +31,7 @@ import AboutPage from "./container/about/AboutPage";
 
 import FacultyPage from "./components/Faculty/FacultyPage";
 import FacultyAchievements from "./components/Faculty_Achievements/facultyAchievements";
+import FacultyEnterpreneur from "./components/Faculty_As_Enterpreneur/FacultyEnterpreneur";
 
 import StudentAchievements from "./components/Student_Achievement/studentAchievements";
 import StudentInternships from "./components/Student_Internship/studentInternships";
@@ -156,6 +157,9 @@ class App extends React.Component {
 
             <Route exact path="/faculty-achievements">
               <FacultyAchievements />
+            </Route>
+            <Route exact path="/faculty-as-enterpreneur">
+              <FacultyEnterpreneur />
             </Route>
 
             {/* R&D Tabs */}
