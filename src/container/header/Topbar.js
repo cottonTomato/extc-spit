@@ -70,6 +70,11 @@ export class Topbar extends Component {
                     Achievements
                   </NavDropdown.Item>
                 </Link>
+                <Link to="/faculty-as-enterpreneur">
+                  <NavDropdown.Item href="/faculty-as-enterpreneur">
+                    Enterpreneur Faculty
+                  </NavDropdown.Item>
+                </Link>
               </NavDropdown>
 
               <NavDropdown title="Students" id="students-dropdown">

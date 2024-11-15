@@ -1,0 +1,18 @@
+.faculty-img {
+  border-radius: 100%;
+  height: 20rem;
+  width: 15rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100rem;
+}
+
+.width-strainer {
+  width: 5rem !important;
+  height: 5rem !important;
+}
