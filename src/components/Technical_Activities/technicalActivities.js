@@ -2,6 +2,7 @@ import { Card, Container, Row, Col } from "react-bootstrap";
 import React, { Component } from "react";
 import data from "./technicalActivitiesData";
 import TechnicalActivitiesGallery from "../../container/gallery/TechnicalActivitiesGallery";
+import "./technicalActivities.css";
 
 export default class TechnicalActivities extends Component {
   render() {
@@ -30,7 +31,12 @@ export default class TechnicalActivities extends Component {
                     <Card.Img variant="top" src={e.image} />
                     <Card.Body>
                       <Card.Title>{e.title}</Card.Title>
-                      <Card.Text>{e.text}</Card.Text>
+                      <Card.Text>
+                        {e.text}
+                        <a href={e.report}>
+                          <h2>Report</h2>
+                        </a>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>

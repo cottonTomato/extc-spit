@@ -1,0 +1,9 @@
+  h2 {
+    font-size: 20px;
+    color: #0006aa !important;
+  }
+  
+  h2:hover{
+    cursor: pointer;
+    color: #4e3bfc !important;
+  }
