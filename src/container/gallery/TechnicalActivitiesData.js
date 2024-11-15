@@ -1,0 +1,16 @@
+export const IMAGES = [
+  { src: "https://i.ibb.co/wgVQjHP/image1.png", thumbnail: "" },
+  { src: "https://i.ibb.co/Nnw24Bm/image2.png", thumbnail: "" },
+  { src: "https://i.ibb.co/VxmC4dm/image3.png", thumbnail: "" },
+  { src: "https://i.ibb.co/rpfpzZr/image4.png", thumbnail: "" },
+  { src: "https://i.ibb.co/JzHJD0Z/image5.png", thumbnail: "" },
+  { src: "https://i.ibb.co/7pGt0LJ/image6.png", thumbnail: "" },
+  { src: "https://i.ibb.co/pdbqhZm/image7.png", thumbnail: "" },
+  { src: "https://i.ibb.co/W0FGtBs/image8.png", thumbnail: "" },
+  { src: "https://i.ibb.co/0sMQXbh/image9.png", thumbnail: "" },
+  { src: "https://i.ibb.co/zJbc7J4/image10.png", thumbnail: "" },
+  { src: "https://i.ibb.co/8XGyQnv/image11.png", thumbnail: "" },
+  { src: "https://i.ibb.co/sskQ0RK/image12.png", thumbnail: "" },
+  { src: "https://i.ibb.co/NNjtjDg/image13.png", thumbnail: "" },
+  { src: "https://i.ibb.co/PcQjS3j/image14.png", thumbnail: "" },
+];

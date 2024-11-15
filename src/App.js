@@ -69,6 +69,7 @@ import FETSPage from "./components/FETS/FETSPage";
 
 import DepartmentLibrary from "./components/Department_Library/Library";
 import InnovativePage from "./components/Innovative_Teaching_Learning/InnovativePage";
+import TechnicalActivities from "./components/Technical_Activities/technicalActivities";
 
 class App extends React.Component {
   constructor(props) {
@@ -156,7 +157,6 @@ class App extends React.Component {
             <Route exact path="/faculty-achievements">
               <FacultyAchievements />
             </Route>
-
 
             {/* R&D Tabs */}
             <Route exact path="/projects">
@@ -249,7 +249,9 @@ class App extends React.Component {
               <DepartmentLibrary />
             </Route>
 
-
+            <Route exact path="/technical-activities">
+              <TechnicalActivities />
+            </Route>
           </Switch>
           <Footer />
         </div>
