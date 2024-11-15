@@ -1,6 +1,6 @@
 // CREATED BY ATHARVA SHAH & ISHANI MATHUR FOR EXTC DEPARTMENT
 
-module.exports = [
+export default [
   {
     name: "Mr. Vijay Patyane",
     designation: "Technical Assistant",
@@ -44,7 +44,7 @@ module.exports = [
     email: "pawarmukund80@gmail.com",
   },
   {
-    name: "Mrs. Shilpa Marbal",
+    name: "Mrs. Shilpa Marbhal",
     designation: "Technical Assistant",
     image: "https://i.ibb.co/2Zg4Ty0/shilpa-marbal-pic2.png",
     qualification: "B.Tech (Electrical)",
@@ -52,19 +52,19 @@ module.exports = [
   },
   {
     name: "Mr. Rajendra Balkrishna Kalthe",
-    designation: "Lab Attendant",
+    designation: "Office Assistant",
     image: "https://i.ibb.co/1JXtLJR/PXL-20240510-063136025.jpg",
     qualification: "9th pass",
   },
   {
     name: "Mr. Sameer Jadhav",
-    designation: "Lab Attendant",
+    designation: "Office Assistant",
     image: "https://i.ibb.co/gJ4BmS8/PXL-20240510-063108712.jpg",
     qualification: "9th pass",
   },
   {
     name: "Mr. Kartik Kirchan",
-    designation: "Lab Attendant",
+    designation: "Office Assistant",
     image: "https://i.ibb.co/jgqbwZK/PXL-20240510-063119249.jpg",
     qualification: "8th pass",
   },

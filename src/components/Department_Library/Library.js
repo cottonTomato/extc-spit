@@ -2,8 +2,9 @@
 
 import React, { Component } from "react";
 import "./style.css";
-import { Container, Card, Row,Col } from "react-bootstrap";
+import { Container, Card, Row, Col } from "react-bootstrap";
 import LibraryGallery from "../../container/gallery/LibraryGallery";
+import BookList from "../../pdfs/department_libary_book_list.pdf";
 
 class DepartmentLibrary extends Component {
   render() {
@@ -23,6 +24,12 @@ class DepartmentLibrary extends Component {
               <LibraryGallery />
             </Card.Body>
           </Card>
+        </Container>
+
+        <Container>
+          <a href={BookList}>
+            <h2>Book List</h2>
+          </a>
         </Container>
       </>
     );
