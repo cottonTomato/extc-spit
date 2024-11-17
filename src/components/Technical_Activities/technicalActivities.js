@@ -23,23 +23,21 @@ export default class TechnicalActivities extends Component {
           </Card>
         </Container>
         <Container>
-          <Row lg={2}>
+          <Row lg={2} >
             {data.map((e) => {
               return (
-                <Col className="d-flex">
-                  <Card>
-                    <Card.Img variant="top" src={e.image} />
-                    <Card.Body>
-                      <Card.Title>{e.title}</Card.Title>
-                      <Card.Text>
-                        {e.text}
-                        <a href={e.report}>
-                          <h2>Report</h2>
-                        </a>
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
+                <Card className="col-sm clickable-card" style={{ height: "1000px" }} href={e.report}>
+                  <Card.Img variant="top" src={e.image} />
+                  <Card.Body className="tecac-body">
+                    <Card.Title>{e.title}</Card.Title>
+                    <Card.Text className="tecac-text">
+                      {e.text}
+                      <a href={e.report} variant="bottom" className="report-link btn btn-primary stretched-link">
+                        Report
+                      </a>
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
               );
             })}
           </Row>

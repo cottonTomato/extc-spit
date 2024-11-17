@@ -1,9 +1,37 @@
-  h2 {
-    font-size: 20px;
-    color: #0006aa !important;
-  }
-  
-  h2:hover{
-    cursor: pointer;
-    color: #4e3bfc !important;
-  }
+h2 {
+  font-size: 20px;
+  color: #0006aa !important;
+}
+
+h2:hover {
+  cursor: pointer;
+  color: #4e3bfc !important;
+}
+
+.clickable-card {
+  padding: 20px;
+  font-size: 15px !important;
+  transition: all 0.16s;
+  -webkit-transition: all 0.16s;
+}
+
+.clickable-card:hover {
+  padding: 17px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.tecac-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.tecac-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.report-link {
+  margin-top: 1em;
+  width: 7em;
+}
