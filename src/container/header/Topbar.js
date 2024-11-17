@@ -145,9 +145,7 @@ export class Topbar extends Component {
               <Link to="/alumni">
                 <Nav.Link href="/alumni">Alumni</Nav.Link>
               </Link>
-              <Link to="/fets">
-                <Nav.Link href="/fets">Committees</Nav.Link>
-              </Link>
+
               <Link to="/technical-activities">
                 <Nav.Link href="/technical-activities">Technical Activities</Nav.Link>
               </Link>
@@ -161,6 +159,11 @@ export class Topbar extends Component {
                 <Link to="/department-library">
                   <NavDropdown.Item href="/department-library">
                     Department Library
+                  </NavDropdown.Item>
+                </Link>
+                <Link to="/fets">
+                  <NavDropdown.Item href="/fets">
+                    Committees
                   </NavDropdown.Item>
                 </Link>
               </NavDropdown>
