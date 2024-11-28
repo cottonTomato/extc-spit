@@ -65,7 +65,7 @@ class BTech extends Component {
                     </li>
                     <li>
                       <a href={BEPDF} target="_blank" rel="noopener noreferrer">
-                        <h2>BE Term 1 2024-24</h2>
+                        <h2>BE Term 1 2024-25</h2>
                       </a>
                     </li>
                   </ul>
@@ -76,22 +76,38 @@ class BTech extends Component {
                   </h3>
                   <ul className="centered-list">
                     <li>
-                      <a href={EXTC_Syllabus_SEM_III} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={EXTC_Syllabus_SEM_III}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <h2>FE Class (EXTC 2021-2025)</h2>
                       </a>
                     </li>
                     <li>
-                      <a href={EXTC_SE_Syllabus} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={EXTC_SE_Syllabus}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <h2>SE Class (EXTC 2021-2025)</h2>
                       </a>
                     </li>
                     <li>
-                      <a href={EXTC_Syllabus_SEM_V} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={EXTC_Syllabus_SEM_V}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <h2>TE Class (EXTC 2021-2025)</h2>
                       </a>
                     </li>
                     <li>
-                      <a href={EXTC_Syllabus_SEM_VII} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={EXTC_Syllabus_SEM_VII}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <h2>BE Class (EXTC 2021-2025)</h2>
                       </a>
                     </li>
@@ -103,17 +119,29 @@ class BTech extends Component {
                   </h3>
                   <ul className="centered-list">
                     <li>
-                      <a href={EXTC_Scheme_2021_25} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={EXTC_Scheme_2021_25}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <h2>For 2021-2025 Batch</h2>
                       </a>
                     </li>
                     <li>
-                      <a href={EXTC_Scheme_2022_26} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={EXTC_Scheme_2022_26}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <h2>For 2022-2026 Batch</h2>
                       </a>
                     </li>
                     <li>
-                      <a href={EXTC_Scheme_2023_27} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={EXTC_Scheme_2023_27}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <h2>For 2023-2027 Batch</h2>
                       </a>
                     </li>
@@ -129,3 +157,4 @@ class BTech extends Component {
 }
 
 export default BTech;
+
