@@ -10,7 +10,7 @@ export default [
     expertise: "",
     email: "bsn@spit.ac.in",
     phone: "+91 9987537702",
-    url: "https://www.linkedin.com/in/satyanarayana-bheesette-177a8519/",
+    url: "https://www.linkedin.com/in/satyanarayana-bheesette-ph-d-177a8519/",
     scholar: "https://scholar.google.com/citations?hl=en&user=ceeMQYMAAAAJ",
   },
   {
@@ -327,8 +327,7 @@ export default [
     name: "Dr. Inderkumar M. Kochar ",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/6nCWqWN/ik-sir-fac-pic-jpeg.png",
-    qualification:
-      "Ph.D. (IIT Roorkee)",
+    qualification: "Ph.D. (IIT Roorkee)",
     experience: "12+ Years",
     // expertise:
     //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
