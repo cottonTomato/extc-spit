@@ -268,6 +268,118 @@ const studentsData = [
       "1st place in the National Case Study Competition - MarkIIT, held at SAMANVAY'24, the prestigious annual business fest organized by the Department of Management Studies, IIT Madras",
     date: "9th November 2024",
   },
+  {
+    "id": 0,
+    "name": "Bhavik Desai,\nVinay Gupta\nAarush Maheshwari",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Finalist of chocolate factory 6.0: Construct your Choco-Dynasty! Competition organized by NMIMS, Mumbai",
+    "date": "11th October 2024"
+  },
+  {
+    "id": 0,
+    "name": "Om Patole,\nRuturaj Parab,\nAashi Hemnani",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winner of Business Case study competition organized by Vivekanand Education Society's Institute of Management, Mumbai",
+    "date": "18th October 2024"
+  },
+  {
+    "id": 0,
+    "name": "Akshat Ambastha",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Finalist of Vescase - Case Study competition organized by GGSIPU, Delhi",
+    "date": "25th October 2024"
+  },
+  {
+    "id": 0,
+    "name": "Akshat Ambastha, \nAnuj Gite",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Secured 4th place in 1,2,3 Sold - Guess, Bid & Win Big competition organized by DoMS, IIT Madras",
+    "date": "9th November 2024"
+  },
+  {
+    "id": 0,
+    "name": "Akshat Ambastha",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Finalist of Business Panchatantra competition organized by DoMS, IIT Madras",
+    "date": "9th November 2024"
+  },
+  {
+    "id": 0,
+    "name": "Akshat Ambastha, \nAnuj Gite",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winners of Fynergy - A Finance Case Study competition organized by DoMS, IIT Madras",
+    "date": "10th November 2024"
+  },
+  {
+    "id": 0,
+    "name": "Akshat Ambastha, \nAnuj Gite",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Finalist of Quizonomics - Business Quiz organized by DoMS, IIT Madras",
+    "date": "10th November 2024"
+  },
+  {
+    "id": 0,
+    "name": "Aparna Jha",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "National Finalist of E-Conjecture: The Economics & Public Policy Event during Atharv Ranbhoomi’24 organized by IIM Indore",
+    "date": "10th November 2024"
+  },
+  {
+    "id": 0,
+    "name": "Himanshu Agrawal",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "1st Runner up of Eco-Lution: Your Ticket to The World of Management, International Case Competition organized by GIM, Goa",
+    "date": "16th November 2024"
+  },
+  {
+    "id": 0,
+    "name": "Bhavik Desai,\nAbhigyan Jha,\nGargi Dhulekar,\nHarsh Gad",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "National Finalist of Eco-Lution: an International Case Competition organized by GIM, Goa",
+    "date": "17h November 2024"
+  },
+  {
+    "id": 0,
+    "name": "Aparna Jha",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "1st runner up of Insight360: a National Level Media Case Study Competition Organized by ISB&M, Pune",
+    "date": "24th November 2024"
+  },
+  {
+    "id": 0,
+    "name": "Shrutika Yeole, \nOm Patil, \nOmkar Yadav, \nRuchir Shukla, \nPranav Shirole, Rushikesh Khedekar",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winners of Smart India Hackathon organized by Ministry of Education, AICTE, New Delhi",
+    "date": "12th December 2024"
+  },
+  {
+    "id": 0,
+    "name": "Tulshidas Mane",
+    "class": "Ph.D",
+    "achievement": "Academics",
+    "awardDescription": "Finalists of 19th Aavishkar: Inter-Collegiate / Institute / Department Research Convention organized by Mumbai University",
+    "date": "15th December 2024"
+  },
+  {
+    "id": 0,
+    "name": "Sejal Kadam",
+    "class": "Ph.D",
+    "achievement": "Academics",
+    "awardDescription": "Finalists of 19th Aavishkar: Inter-Collegiate / Institute / Department Research Convention organized by Mumbai University",
+    "date": "15th December 2024"
+  }
 ];
 
 export default studentsData;
