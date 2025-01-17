@@ -1,41 +1,64 @@
-import React, { useState, useEffect } from "react";
+// CREATED BY ATHARVA SHAH & ISHANI MATHUR FOR EXTC DEPARTMENT
+
+import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "./faculty.css";
 import facultyData from "./facultyData";
 import supportStaffData from "./supportStaffData";
+import logo from "../../images/icons8-google-scholar-48.svg";
 import GoogleScholarIcon from "../../images/GoogleScholarIcon";
 
-const FacultyPage = () => {
-  const [isDarkReaderEnabled, setIsDarkReaderEnabled] = useState(
-    document.querySelector("meta[name=darkreader]") !== null
-  );
+class FacultyPage extends Component {
+  render() {
+    const facultyRows = this.createRows(facultyData, 2).map((row, index) => (
+      <Row key={index}>
+        {row.map((faculty) => (
+          <Col sm={12} md={8} lg={6} key={faculty.name}>
+            {this.renderFacultyCard(faculty)}
+          </Col>
+        ))}
+      </Row>
+    ));
 
-  useEffect(() => {
-    // Create a mutation observer to watch for Dark Reader changes
-    const observer = new MutationObserver((mutations) => {
-      mutations.forEach((mutation) => {
-        if (mutation.type === "childList") {
-          const darkReaderActive = document.querySelector("meta[name=darkreader]") !== null;
-          setIsDarkReaderEnabled(darkReaderActive);
-        }
-      });
-    });
+    const supportStaffRows = this.createRows(supportStaffData, 2).map(
+      (row, index) => (
+        <Row key={index}>
+          {row.map((staff) => (
+            <Col sm={12} md={8} lg={6} key={staff.name}>
+              {this.renderSupportStaffCard(staff)}
+            </Col>
+          ))}
+        </Row>
+      )
+    );
 
-    // Start observing the document head for Dark Reader meta tag changes
-    observer.observe(document.head, {
-      childList: true,
-      subtree: true,
-    });
+    return (
+      <section>
+        <Container className="global-container text-center" fluid>
+          <Row>
+            <Col>
+              <h3>FACULTY LIST</h3>
+            </Col>
+          </Row>
+        </Container>
+        <Container className="mt-5 mb-5">{facultyRows}</Container>
+        <Container className="global-container text-center" fluid>
+          <Row>
+            <Col>
+              <h3>SUPPORT STAFF</h3>
+            </Col>
+          </Row>
+        </Container>
+        <Container className="mt-5 mb-5">{supportStaffRows}</Container>
+      </section>
+    );
+  }
 
-    // Cleanup observer on component unmount
-    return () => observer.disconnect();
-  }, []);
-
-  const renderFacultyCard = (faculty) => {
+  renderFacultyCard(faculty) {
     return (
       <div className="faculty-card">
         <div className="faculty-image">
-          <Image src={isDarkReaderEnabled ? faculty.darkImage : faculty.image} fluid />
+          <Image src={faculty.image} fluid />
           <div>
             <a href={faculty.url}>
               <i className="fab fa-linkedin-in"></i>
@@ -61,9 +84,9 @@ const FacultyPage = () => {
         </div>
       </div>
     );
-  };
+  }
 
-  const renderSupportStaffCard = (staff) => {
+  renderSupportStaffCard(staff) {
     return (
       <div className="faculty-card">
         <div className="faculty-image">
@@ -79,56 +102,15 @@ const FacultyPage = () => {
         </div>
       </div>
     );
-  };
+  }
 
-  const createRows = (data, itemsPerRow) => {
+  createRows(data, itemsPerRow) {
     const rows = [];
     for (let i = 0; i < data.length; i += itemsPerRow) {
       rows.push(data.slice(i, i + itemsPerRow));
     }
     return rows;
-  };
-
-  const facultyRows = createRows(facultyData, 2).map((row, index) => (
-    <Row key={index}>
-      {row.map((faculty) => (
-        <Col sm={12} md={8} lg={6} key={faculty.name}>
-          {renderFacultyCard(faculty)}
-        </Col>
-      ))}
-    </Row>
-  ));
-
-  const supportStaffRows = createRows(supportStaffData, 2).map((row, index) => (
-    <Row key={index}>
-      {row.map((staff) => (
-        <Col sm={12} md={8} lg={6} key={staff.name}>
-          {renderSupportStaffCard(staff)}
-        </Col>
-      ))}
-    </Row>
-  ));
-
-  return (
-    <section>
-      <Container className="global-container text-center" fluid>
-        <Row>
-          <Col>
-            <h3>FACULTY LIST</h3>
-          </Col>
-        </Row>
-      </Container>
-      <Container className="mt-5 mb-5">{facultyRows}</Container>
-      <Container className="global-container text-center" fluid>
-        <Row>
-          <Col>
-            <h3>SUPPORT STAFF</h3>
-          </Col>
-        </Row>
-      </Container>
-      <Container className="mt-5 mb-5">{supportStaffRows}</Container>
-    </section>
-  );
-};
+  }
+}
 
 export default FacultyPage;

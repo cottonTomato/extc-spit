@@ -2,10 +2,21 @@
 
 export default [
   {
+    name: "Dr. Satyanarayana Bheesette",
+    designation: "Professor of Practice",
+    image: "https://i.ibb.co/Ny11ztr/satyanarayana-pic.png",
+    qualification: "Ph.D. in Physics (IIT Bombay)",
+    experience: "41+ Years",
+    expertise: "",
+    email: "bsn@spit.ac.in",
+    phone: "+91 9987537702",
+    url: "https://www.linkedin.com/in/satyanarayana-bheesette-ph-d-177a8519/",
+    scholar: "https://scholar.google.com/citations?hl=en&user=ceeMQYMAAAAJ",
+  },
+  {
     name: "Dr. Y.S. Rao",
     designation: "Vice Principal, Professor",
     image: "https://i.ibb.co/MZ5ZRSH/PXL-20240510-055514850.jpg",
-    darkImage: "https://i.ibb.co/HNRmdF0/virus.jpg",
     qualification: "Ph.D. (IIT Bombay-ES)",
     experience: "30+ Years",
     expertise:
@@ -19,7 +30,6 @@ export default [
     name: "Dr. Rajendra R Sawant",
     designation: "Professor, Electronics & Telecom",
     image: "https://i.ibb.co/n66zTtb/PXL-20240510-054742716.jpg",
-    darkImage: "https://i.ibb.co/yBBcVFt/andha.gif",
     qualification: "PhD(IITB); MTech(IITB); BE(Elect.Engg)(GCoE, A’Bad, DBM)",
     experience: "30+ Years",
     expertise: "Power Electronics & Automation",
@@ -33,7 +43,6 @@ export default [
     designation:
       "Associate Professor & Dean-Students, Alumni & External Relations",
     image: "https://i.ibb.co/bRLghwX/IMG-21083.jpg",
-    darkImage: "https://i.ibb.co/QrrNr1G/waltuh.jpg",
     qualification: "PhD",
     experience: "35 Years",
     expertise:
@@ -43,12 +52,23 @@ export default [
     url: "https://www.linkedin.com/in/k-t-v-talele/",
     scholar: "https://scholar.google.com/citations?user=fP7xEcwAAAAJ&hl=en",
   },
-
+  {
+    name: "Dr. Dayanand Ambawade",
+    designation: "Associate Professor",
+    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
+    qualification: "Ph.D",
+    experience: "26 Years",
+    expertise:
+      "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
+    email: "dd_ambawade@spit.ac.in",
+    phone: "(022) – 69846900 EXT:69846900 EXT: ",
+    url: "https://www.linkedin.com/in/dayanand-ambawade-a491a754/",
+    scholar: "https://scholar.google.com/citations?user=jW3ErDgAAAAJ&hl=en",
+  },
   {
     name: "Dr. Reena Sonkusare",
     designation: "Associate Professor & HOD",
     image: "https://i.ibb.co/42Q75c5/PXL-20240510-055441933.jpg",
-    darkImage: "https://i.ibb.co/rHdmGxn/reena-haseena.jpg",
     qualification: "Ph.D(Mumbai University), MTech(IIT Bombay)",
     experience: "25 Years",
     expertise: "Mixed Signal VLSI Design, RF Antenna, Communication",
@@ -61,7 +81,6 @@ export default [
     name: "Dr. Sukanya A. Kulkarni",
     designation: "Associate Professor",
     image: "https://i.ibb.co/HHP3YNY/PXL-20240510-055128154.jpg",
-    darkImage: "https://i.ibb.co/kGrL5CK/fat-chipmunk.jpg",
     qualification: "Ph.D(Mumbai University)",
     experience: "30 Years",
     expertise: "RF & Wireless Communication",
@@ -74,7 +93,6 @@ export default [
     name: "Dr. Deepak C Karia",
     designation: "Associate Professor",
     image: "https://i.ibb.co/MpGsyyt/PXL-20240510-054630871.jpg",
-    darkImage: "https://i.ibb.co/yphhwNP/rajat-kapur.jpg",
     qualification: "Ph.D (Mumbai University)",
     experience: "22+ Years",
     expertise: "Communication, Networking",
@@ -87,7 +105,6 @@ export default [
     name: "Dr. Rajendra Sutar",
     designation: "Associate Professor",
     image: "https://i.ibb.co/3v4ZG8g/PXL-20240510-055725296.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "M.E. PhD (VNIT)",
     experience: "25 Years",
     expertise:
@@ -102,7 +119,6 @@ export default [
     name: "Dr. Narendra Anant Bhagat",
     designation: "Associate Professor",
     image: "https://i.ibb.co/MZDXDqP/PXL-20240510-055414175.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "Ph.D (Mumbai University), MTech (Mumbai University)",
     experience: "24 Years",
     expertise:
@@ -116,7 +132,6 @@ export default [
     name: "Dr. Sujata Kulkarni",
     designation: "Associate Professor",
     image: "https://i.ibb.co/VJdJT0f/PXL-20240510-055823936.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "Ph. D",
     experience: "20+ Years",
     expertise:
@@ -131,7 +146,6 @@ export default [
     name: "Prof. Manish M. Parmar",
     designation: "Associate Professor",
     image: "https://i.ibb.co/Vp1mb2x/PXL-20240510-054928376.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "M.E. (IT), Pursuing PhD",
     experience: "33 Years",
     expertise:
@@ -145,7 +159,6 @@ export default [
     name: "Dr. P. V. Kasambe",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/D5YTBsB/PXL-20240510-060037933.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification:
       "Ph.D Electronics (University of Mumbai), M.E. (Electronics, University of Mumbai)",
     experience: "24 Years",
@@ -159,7 +172,6 @@ export default [
     name: "Dr. Anand D. Mane",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/SttkcYf/PXL-20240510-055548389.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification:
       "Ph.D (Mumbai University), M.E. (Communication Engineering, Electronics Engineering)",
     experience: "25 Years Teaching, 2 Years Industry",
@@ -175,7 +187,6 @@ export default [
     name: "Dr. Payal Shah",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/YBSmbQb/PXL-20240510-055856262.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "Ph.D",
     experience: "17 Years",
     expertise:
@@ -189,7 +200,6 @@ export default [
     name: "Dr. Manisha Bansode",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/c1hMYHg/IMG-20240511-WA0001.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "Ph.D",
     experience: "17 Years",
     expertise:
@@ -204,7 +214,6 @@ export default [
     name: "Prof. G. T. Haldankar",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/gSR7PN3/PXL-20240510-054657629.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "M.E. Electronics (Pursuing Ph.D.)",
     experience: "13 Years",
     expertise: "Power Electronics",
@@ -217,7 +226,6 @@ export default [
     name: "Prof. Milind Paraye",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/RQYRMcj/Milind-Sir-photo-1.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "M.E. (Pursuing Ph.D.)",
     experience: "14 Years",
     expertise: "Embedded Systems, PV solar, ML, AI",
@@ -231,7 +239,6 @@ export default [
     name: "Prof. Priya Deshpande",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/hff5H0D/PXL-20240510-055242991.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "M.Tech. (Pursuing Ph.D.)",
     experience: "10 Years",
     expertise: "Embedded System, Signal and Image Processing",
@@ -244,7 +251,6 @@ export default [
     name: "Prof. Najib Ghatte",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/MRZqLNW/PXL-20240510-054908901.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "B.E; M.E",
     experience: "10 Years",
     expertise:
@@ -258,7 +264,6 @@ export default [
     name: "Prof. Pallavi Malame(Nair)",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/VmMvFk5/PXL-20240510-055334032.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "B.E; M.E (Pursuing Ph.D.)",
     experience: "9 Years",
     expertise:
@@ -272,7 +277,6 @@ export default [
     name: "Dr. Amol S Deshpande",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/HBK9XFS/PXL-20240510-054950234.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "PhD, Post-Doc",
     experience: "9 Years",
     expertise: "High Voltage Engineering, Image Processing",
@@ -285,7 +289,6 @@ export default [
     name: "Prof. Sneha A. Weakey",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/BNcNXzN/sneha-maam-pic3.png",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "M.Tech (Control System)",
     experience: "6 Years",
     expertise: "Control Systems, Digital Circuits, Electronics Devices",
@@ -299,7 +302,6 @@ export default [
     name: "Dr. Santoshkumar Sabat",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/kSqx2C5/PXL-20240510-055755919.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "Ph. D (VNIT Nagpur)",
     experience: "10 Years",
     expertise: "Wireless Communication, LTE, 5G",
@@ -312,7 +314,6 @@ export default [
     name: "Dr. Shanti Swamy",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/18bndfd/shanti-swamy-pic2.png",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "Ph.D.",
     experience: "28 Years",
     // expertise:
@@ -326,9 +327,7 @@ export default [
     name: "Dr. Inderkumar M. Kochar ",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/6nCWqWN/ik-sir-fac-pic-jpeg.png",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
-    qualification:
-      "Ph.D. (IIT Roorkee)",
+    qualification: "Ph.D. (IIT Roorkee)",
     experience: "12+ Years",
     // expertise:
     //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
@@ -342,7 +341,6 @@ export default [
     // TODO: no designation
     designation: "Assistant Professor",
     image: "https://i.ibb.co/B2fDsdD/pankaj-sir-pic3.png",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification: "Ph.D.",
     experience: "",
     // expertise:
@@ -357,7 +355,6 @@ export default [
     // TODO: no designation
     designation: "Assistant Professor",
     image: "https://i.ibb.co/sg9vCLd/mrinmayi-patil-pic2.png",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
     qualification:
       "B.Tech (Electronics) , M.Tech (Electronics and Communications)",
     experience: "3.5 years",
@@ -367,32 +364,5 @@ export default [
     phone: "(022) – 69846900 EXT:",
     url: "https://www.linkedin.com/in/mrinmayi-patil-0860aa32b",
     scholar: "https://scholar.google.com/citations?user=huRBzKgAAAAJ&hl=en",
-  },
-  {
-    name: "Dr. Satyanarayana Bheesette",
-    designation: "Professor of Practice",
-    image: "https://i.ibb.co/Ny11ztr/satyanarayana-pic.png",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
-    qualification: "Ph.D. in Physics (IIT Bombay)",
-    experience: "41+ Years",
-    expertise: "",
-    email: "bsn@spit.ac.in",
-    phone: "+91 9987537702",
-    url: "https://www.linkedin.com/in/satyanarayana-bheesette-177a8519/",
-    scholar: "https://scholar.google.com/citations?hl=en&user=ceeMQYMAAAAJ",
-  },
-  {
-    name: "Dr. Dayanand Ambawade",
-    designation: "Associate Professor",
-    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
-    darkImage: "https://i.ibb.co/SxGXfRL/jimmayyyy.jpg",
-    qualification: "Ph.D",
-    experience: "26 Years",
-    expertise:
-      "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
-    email: "dd_ambawade@spit.ac.in",
-    phone: "(022) – 69846900 EXT:69846900 EXT: ",
-    url: "https://www.linkedin.com/in/dayanand-ambawade-a491a754/",
-    scholar: "https://scholar.google.com/citations?user=jW3ErDgAAAAJ&hl=en",
   },
 ];
