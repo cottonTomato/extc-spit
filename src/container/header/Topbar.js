@@ -113,6 +113,9 @@ export class Topbar extends Component {
                     Publications
                   </NavDropdown.Item>
                 </Link>
+                <Link to="/reimbursement">
+                  <NavDropdown.Item href="/reimbursement">Resimbursement Policy</NavDropdown.Item>
+                </Link>
                 <Link to="/consultancy">
                   <NavDropdown.Item href="/consultancy">
                     Consultancy/Funded/Sponsored Projects

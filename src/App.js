@@ -20,6 +20,7 @@ import BOS from "./container/BOS/BOSPage";
 import Projects from "./container/projects/Projects";
 import Publications from "./container/publications/Publications";
 import Consultancy from "./container/consultancy/Consultancy";
+import Reimbursement from "./container/reimbursement/Reimbursement";
 
 import Message from "./container/Messages/Message";
 import PhotoGallary from "./container/gallery/PhotoGallery";
@@ -174,6 +175,11 @@ class App extends React.Component {
             <Route exact path="/consultancy">
               <Consultancy />
             </Route>
+
+            <Route exact path="/reimbursement">
+              <Reimbursement />
+            </Route>
+            {/* R&D Tabs */}
 
             <Route exact path="/infrastructure">
               <InfrastructurePage />
