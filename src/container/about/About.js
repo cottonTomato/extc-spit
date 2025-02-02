@@ -4,6 +4,7 @@ import hodImg from "../../images/hod-desk-img.jpg";
 import "./about.css";
 import { Link } from "react-router-dom";
 import extcvideo from "../../videos/EXTC_Video.mp4";
+import naacBanner from "../../images/NAAC_banner.jpg";
 
 class About extends Component {
   render() {
@@ -11,13 +12,28 @@ class About extends Component {
       <section
         className="about py-5"
         id="about"
-        style={{ backgroundColor: "#fff", justifyContent: "center"}}
+        style={{ backgroundColor: "#fff", justifyContent: "center" }}
       >
+
         <Container>
+          <Col
+            xs={6}
+            lg={12}
+            md={8}
+            className="mx-auto px-lg-5 pt-0 mt-0 mb-5 align-self-center"
+            data-aos="fade-in"
+          >
+            <div className="about-img_container">
+              <Image
+                src={naacBanner}
+                fluid
+              />
+            </div>
+          </Col>
 
           <Card className="card-style">
             <h1>About</h1>
-            <p  style={{ textAlign: "justify"}}>
+            <p style={{ textAlign: "justify" }}>
               The B.E. Electronics and Telecommunications Engineering is a comprehensive four-year
               program that imparts a well-rounded education and a strong foundation in electronics,
               communications, computing, and engineering sciences. Established in 2005, the department
@@ -26,8 +42,8 @@ class About extends Component {
               new heights with the launch of a Ph.D. program in 2012 with an intake capacity of 20 research
               scholars. S.P.I.T became an Autonomous Institute, affiliated to University of Mumbai in 2017.
             </p>
-              
-            <p style={{ textAlign: "justify"}}>
+
+            <p style={{ textAlign: "justify" }}>
               The UG intake capacity from Academic year 2021-22 has been doubled 120 students. We have
               been Granted Empowered Autonomy Status by the University of Mumbai in 2023. The faculty,
               equipped with high qualifications and professional expertise, conducts training programs
@@ -44,7 +60,7 @@ class About extends Component {
           </Card>
 
           <Card className="card-style">
-          {/* add the EXTCVideo here as embed */}
+            {/* add the EXTCVideo here as embed */}
 
             {/* <video controls autoplay loop>
               <source src={extcvideo} type="video/mp4" />
@@ -56,9 +72,9 @@ class About extends Component {
           </Card>
 
 
-          <Card className="card-style" style={{ textAlign: "justify"}}>
+          <Card className="card-style" style={{ textAlign: "justify" }}>
             <h1>From HOD's Desk</h1>
-           <img src = {hodImg} width="300" height="300" style={{ borderRadius: "50%", display: "block", margin: "auto", marginTop: "20px", marginBottom: "20px"}}/>
+            <img src={hodImg} width="300" height="300" style={{ borderRadius: "50%", display: "block", margin: "auto", marginTop: "20px", marginBottom: "20px" }} />
             <p>
               The Department of Electronics and telecommunication was established in 2005 which
               offers B. Tech. degree in Electronics and Telecommunications Engineering with a dream to
