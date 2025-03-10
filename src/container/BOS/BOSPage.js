@@ -4,14 +4,14 @@ import "./BOS.css";
 
 //pdf imports
 
-import BOS1718 from "../../pdfs/bos/BoS_2017-18.pdf";
-import BOS1819 from "../../pdfs/bos/BoS_2018-19.pdf";
-import BOS1920 from "../../pdfs/bos/BoS_2019-20.pdf";
-import BOS2021 from "../../pdfs/bos/BoS_2020-21.pdf";
-import BOS2122 from "../../pdfs/bos/BoS_2021-22.pdf";
-import BOS2223 from "../../pdfs/bos/BoS_2022-23.pdf";
-import BOS2324 from "../../pdfs/bos/BoS_2023-24.pdf";
-import BOS2425 from "../../pdfs/bos/BoS_2024-25.pdf";
+import BOS1718 from "../../pdfs/bos/Board of Studies_2017-18.pdf";
+import BOS1819 from "../../pdfs/bos/Board of Studies_2018-19.pdf";
+import BOS1920 from "../../pdfs/bos/Board of Studies_2019-20.pdf";
+import BOS2021 from "../../pdfs/bos/Board of Studies_2020-21.pdf";
+import BOS2122 from "../../pdfs/bos/Board of Studies_2021-22.pdf";
+import BOS2223 from "../../pdfs/bos/Board of Studies_2022-23.pdf";
+import BOS2324 from "../../pdfs/bos/Board of Studies_2023-24.pdf";
+import BOS2425 from "../../pdfs/bos/Board of Studies_2024-25.pdf";
 
 class BOS extends Component {
   render() {
