@@ -11,7 +11,7 @@ export class Topbar extends Component {
       <>
         <Navbar
           className="px-4 d-flex justify-content-center align-items-center"
-          style={{ backgroundColor: "white", minHeight: "100px" }}
+          style={{ backgroundColor: "white", height: 'auto', width: 'auto' }}
         >
           <Navbar.Brand>
             <img src={logo} alt="clg logo" />
@@ -22,7 +22,13 @@ export class Topbar extends Component {
             </h1>
           </Navbar.Text>
           <Navbar.Brand>
-            <img src={deptLogo} alt="dept logo" className="dept-logo" />
+          <img
+            width={130}
+            src={deptLogo}
+            alt="dept logo"
+            className="dept-logo"
+            style={{ paddingTop: '25px', height: '143px', width: 'auto', maxHeight: '100%' }}
+          />
           </Navbar.Brand>
         </Navbar>
 
