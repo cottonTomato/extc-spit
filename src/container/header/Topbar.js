@@ -63,6 +63,10 @@ export class Topbar extends Component {
                 <Link to="/bos">
                   <NavDropdown.Item href="/bos">BOS</NavDropdown.Item>
                 </Link>
+
+                <Link to="/dapc">
+                  <NavDropdown.Item href="/dapc">DAPC</NavDropdown.Item>
+                </Link>
               </NavDropdown>
 
               <NavDropdown title="People" id="faculty-dropdown">
@@ -76,7 +80,6 @@ export class Topbar extends Component {
                     Achievements
                   </NavDropdown.Item>
                 </Link>
-
               </NavDropdown>
 
               <NavDropdown title="Students" id="students-dropdown">
@@ -120,7 +123,9 @@ export class Topbar extends Component {
                   </NavDropdown.Item>
                 </Link>
                 <Link to="/reimbursement">
-                  <NavDropdown.Item href="/reimbursement">Resimbursement Policy</NavDropdown.Item>
+                  <NavDropdown.Item href="/reimbursement">
+                    Resimbursement Policy
+                  </NavDropdown.Item>
                 </Link>
                 <Link to="/consultancy">
                   <NavDropdown.Item href="/consultancy">
@@ -156,7 +161,9 @@ export class Topbar extends Component {
               </Link>
 
               <Link to="/technical-activities">
-                <Nav.Link href="/technical-activities">Technical Activities</Nav.Link>
+                <Nav.Link href="/technical-activities">
+                  Technical Activities
+                </Nav.Link>
               </Link>
 
               <NavDropdown title="Other" id="other-dropdown">
@@ -171,9 +178,7 @@ export class Topbar extends Component {
                   </NavDropdown.Item>
                 </Link>
                 <Link to="/fets">
-                  <NavDropdown.Item href="/fets">
-                    Committees
-                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/fets">Committees</NavDropdown.Item>
                 </Link>
               </NavDropdown>
             </Nav>

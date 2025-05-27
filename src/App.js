@@ -15,6 +15,7 @@ import BTech from "./container/Btech/BTechPage";
 import MTech from "./container/MTech/MTechPage";
 import PhD from "./container/Phd/PhdPage";
 import BOS from "./container/BOS/BOSPage";
+import DAPC from "./container/DAPC/DAPCPage";
 
 // R&D Tabs
 import Projects from "./container/projects/Projects";
@@ -150,6 +151,10 @@ class App extends React.Component {
 
             <Route exact path="/bos">
               <BOS />
+            </Route>
+
+            <Route exact path="/dapc">
+              <DAPC />
             </Route>
 
             <Route exact path="/faculty">

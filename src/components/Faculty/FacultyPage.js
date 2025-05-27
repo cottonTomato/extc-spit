@@ -5,7 +5,6 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import "./faculty.css";
 import facultyData from "./facultyData";
 import supportStaffData from "./supportStaffData";
-import logo from "../../images/icons8-google-scholar-48.svg";
 import GoogleScholarIcon from "../../images/GoogleScholarIcon";
 
 class FacultyPage extends Component {
@@ -29,7 +28,7 @@ class FacultyPage extends Component {
             </Col>
           ))}
         </Row>
-      )
+      ),
     );
 
     return (
