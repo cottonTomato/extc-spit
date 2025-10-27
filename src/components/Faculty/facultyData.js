@@ -284,17 +284,4 @@ export default [
     url: "https://www.linkedin.com/in/dr-shanti-swamy-55b25a14/",
     scholar: "https://scholar.google.co.in/citations?user=FxKdFxAAAAAJ&hl=en",
   },
-  {
-    name: "Prof. Neha Barwa",
-    designation: "Assistant Professor",
-    image: "https://i.ibb.co/KjkC2qdx/Whats-App-Image-2025-09-02-at-14-31-38.jpg",
-    qualification: "B.E. EXTC (SPIT) , M.Tech (VLSI and Embedded systems, SVNIT)",
-    experience: "9 Years",
-    // expertise:
-    //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
-    email: "neha.barwa@spit.ac.in",
-    phone: "(022) – 69846900 EXT:",
-    url: "https://www.linkedin.com/in/neha-barwa-48648545",
-    scholar: "https://scholar.google.co.in/citations?hl=en&user=9x3ZJTsAAAAJ",
-  }
 ];
