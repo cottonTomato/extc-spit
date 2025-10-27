@@ -379,6 +379,238 @@ const studentsData = [
     "achievement": "Academics",
     "awardDescription": "Finalists of 19th Aavishkar: Inter-Collegiate / Institute / Department Research Convention organized by Mumbai University",
     "date": "15th December 2024"
+  },
+  {
+    "id": 0,
+    "name": "Suyog Repal",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Secured 3rd position in National Level Online Quiz competition organized by Department of Mathematics, Deogiri College Sambhajinagar",
+    "date": "22nd December 2024"
+  },
+  {
+    "id": 0,
+    "name": "Akshat Ambastha, Bhavik Desai, Anuj Gite",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winners of Finanza'25 - Valuation Case Competition organized by IIM Lucknow",
+    "date": "7th January 2025"
+  },
+  {
+    "id": 0,
+    "name": "Bhavik Desai, Vishwaraj Sharma",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "2nd Runner-up of Stock and roll valuation Case Study Competition organized by SPJIMR, Mumbai",
+    "date": "25th January 2025"
+  },
+  {
+    "id": 0,
+    "name": "Bhavik Desai, Abhigyan Jha, Vinay Gupta",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "National Finalist of Finvisor-Case Study Competition organized by SPJIMR, Mumbai",
+    "date": "26th January 2025"
+  },
+  {
+    "id": 0,
+    "name": "Bhavik Desai, Vishwaraj Sharma",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "National Finalist of Consultomania- Case Competition organized by SPJIMR, Mumbai",
+    "date": "26th January 2025"
+  },
+  {
+    "id": 0,
+    "name": "Achintya Chavan, Harsh Chhallani",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Finalist of K! Hacks 2.0 hackathon organized by CEG, Anna University, Chennai",
+    "date": "1st February 2025"
+  },
+  {
+    "id": 0,
+    "name": "Sudhanshu Pandey, Shashvat Sangle, Soumorup Chakrabarti, Shivam Singh",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "National Finalist in NES 2025: NIT Rourkela E-Summit Case Study Competition organized by NIT, Rourkela",
+    "date": "4th February 2025"
+  },
+  {
+    "id": 0,
+    "name": "Aparna Jha",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winner of Cosmic Quest- The Ultimate Case Study Challenge competition organized by SPIT, Mumbai",
+    "date": "17th February 2025"
+  },
+  {
+    "id": 0,
+    "name": "Arushi Tiwari, Hridaya Vashishtha, Abeer Sane",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winner of Kaleidoscope 2025 - Case Study Competition organized by SIMS, Pune",
+    "date": "23rd February 2025"
+  },
+  {
+    "id": 0,
+    "name": "Shweta Shinde, Uday Yeshi, Chinmay Thakur",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winner of Bugbuster 2.0 National Level Hardware Hackathon organized by IETE SPIT, Mumbai",
+    "date": "23rd February 2025"
+  },
+  {
+    "id": 0,
+    "name": "Ishaan Gawde, Anuj Gite, Vedanth Dhagay",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Secured 2nd position in Bugbuster 2.0 National Level Hardware Hackathon organized by IETE SPIT, Mumbai",
+    "date": "23rd February 2025"
+  },
+  {
+    "id": 0,
+    "name": "Om Rane, Sudiksha Sawant, Sneha Jino",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "National Finalist in Bugbuster 2.0 National Level Hardware Hackathon organized by IETE SPIT, Mumbai",
+    "date": "23rd February 2025"
+  },
+  {
+    "id": 0,
+    "name": "Pulkit Gupta, Aditi Rao",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winners of Best Paper in the session of the 7th IEEE International Conference on \"Emerging Smart Computing & Informatics (ESCI-2025)\" sponsored by IEEE Pune chapter, IEEE signal processing Pune chapter, , San Diego State University and organized by AISSMS Institute of Information Technology, Pune",
+    "date": "7th March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Arushi Tiwari",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winner of problem statement competition of Blossom, Bubbles & Bytes Women-Only Frontend Hackathon organized by WIE IEEE SPIT Mumbai",
+    "date": "8th March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Om Rane, Sudiksha Sawant, Tejas Prakash Rupwate",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "National Finalist of Ideathon 3.0 - National Level Conference for Ideation and Entrepreneurship with NSS organized by SNDT, Mumbai",
+    "date": "8th March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Aditi Rao",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Finalist of Google Girl Hackathon organized by Google Inc., Bengaluru",
+    "date": "11th March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Niraj Mahajan, Anurag Bagal, Shreerang Shukla, Kartik Rane",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Finalist of WCE Hackathon 2025 organized by Walchand College of Engineering (WCE), Sangli",
+    "date": "15th March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Bhavik Desai, Abhigyan Jha, Gargi Dhulekar",
+    "class": "S.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winner of National Case Study: SPIT organized by SPIT ECell, Mumbai",
+    "date": "16th March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Himanshu Agrawal, Ganesh Kakade, Nakshatra Chandgothia",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winners of Merge Mania: Case Study Competition organized by Sardar Patel Institute of Technology, Mumbai",
+    "date": "16th March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Achintya Chavan, Harsh Chhallani",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Finalist (Top 11 in India) in EY Techathon 5.0 hackathon organized by EY - Ernst & Young, Bangalore",
+    "date": "17th March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Muhammad Adil Bankar",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Secured 3rd position in CodeAstra Hackathon organized by Rajiv Gandhi Institute of Technology, Mumbai",
+    "date": "19th March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Saloni Zargad, Kashish Suvarna, Vishakha Lade, Dishita Jain, Pragati More",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Secured 1st Position in Idea Presentation (Shark Tank) organized by Technical and Applied Chemistry Department, Veermata Jijabai Technological Institute, Mumbai",
+    "date": "22nd March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Manaswi Rajput, Urja Saha, Ibrahim Ganijee, Rohan Pawar",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winner in AlgoForge 25: Hackathon competition organized by KJ Somaiya Institute of Technology, Mumbai",
+    "date": "23rd March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Sudhanshu Pandey, Shashvat Sangle, Soumorup Chakrabarti",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "National Finalist in Inceptio 8.0 Marketing Challenge Competition, MPSTME NMIMS, Mumbai",
+    "date": "26th March 2025"
+  },
+  {
+    "id": 0,
+    "name": "Muhammad Adil Bankar",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Domain (AI for social cause) Winners of Airavat 2.0 hackathon organized by Sardar Patel Institute of Technology, Mumbai",
+    "date": "13th April 2025"
+  },
+  {
+    "id": 0,
+    "name": "Achintya Chavan, Harsh Chhallani, Manan Andraskar",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Finalist of Airavat 2.0 hackathon organized by Sardar Patel Institute of Technology, Mumbai",
+    "date": "13th April 2025"
+  },
+  {
+    "id": 0,
+    "name": "Achintya Chavan, Soham Gondhalekar, Vardhan Joshi",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winner of Prakalp 3.0 organized by Fr. Conceicao Rodrigues Institute of Technology, Mumbai",
+    "date": "19th April 2025"
+  },
+  {
+    "id": 0,
+    "name": "Prathmesh Mane",
+    "class": "T.Y",
+    "achievement": "Academic",
+    "awardDescription": "Winner of S.P.I.T The Exponential Award for demonstrating exceptional personal and academic growth, perseverance through challenges and an inspiring commitment to continuous self- improvement",
+    "date": "24th April 2025"
+  },
+  {
+    "id": 0,
+    "name": "Omkar Lokre, Tejas Kamble, Sarthak Kasture",
+    "class": "B.E",
+    "achievement": "Academic",
+    "awardDescription": "Winner of Best Hardware Project Award at S.P.I.T in academic year 2024-25 for project entitled \"Water Trash Collector\"",
+    "date": "24th April 2025"
   }
 ];
 

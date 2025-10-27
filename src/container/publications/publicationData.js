@@ -2,7 +2,7 @@ export const facultyPublicationData = [
   ["Dr. Y . S. Rao", 0, 1, 1, 0, 0, 0, 2, 4, 1],
   ["Dr. R. R. Sawant", 0, 2, 2, 0, 1, 0, 2, 2, 1],
   ["Dr. K. T. Talele", 0, 1, 2, 0, 2, 2, 0, 5, 2],
-  ["Dr. D. D. Ambawade", 0, 1, 0, 0, 3, 0, 0, 9, 0],
+  // ["Dr. D. D. Ambawade", 0, 1, 0, 0, 3, 0, 0, 9, 0],
   ["Dr. Reena Sonkusare", 2, 0, 0, 1, 0, 0, 2, 5, 0],
   ["Dr. Sukanya Kulkarni", 0, 1, 0, 0, 1, 0, 1, 5, 0],
   ["Dr. D. C. Karia", 0, 3, 1, 0, 5, 0, 0, 8, 0],
@@ -44,12 +44,12 @@ export const facultyPublicationData2 = [
     '2022-2023': { Journal: 0, Conference: 2, Patent: 2 },
     '2021-2022': { Journal: 0, Conference: 5, Patent: 2 }
   },
-  {
-    'Name of Faculty': 'Prof. D. D. Ambawade',
-    '2023-2024': { Journal: 0, Conference: 1, Patent: 0 },
-    '2022-2023': { Journal: 0, Conference: 3, Patent: 0 },
-    '2021-2022': { Journal: 0, Conference: 9, Patent: 0 }
-  },
+  // {
+  //   'Name of Faculty': 'Prof. D. D. Ambawade',
+  //   '2023-2024': { Journal: 0, Conference: 1, Patent: 0 },
+  //   '2022-2023': { Journal: 0, Conference: 3, Patent: 0 },
+  //   '2021-2022': { Journal: 0, Conference: 9, Patent: 0 }
+  // },
   {
     'Name of Faculty': 'Dr. Reena Sonkusare',
     '2023-2024': { Journal: 2, Conference: 0, Patent: 0 },
@@ -186,7 +186,7 @@ export const facultyPublicationCitations = [
 ["Prof. Najib Ghatte", 46, 4, 1, 8, 12, 2],
 ["Dr. Y . S. Rao", 563, 10, 10, 42, 221, 7],
 ["Dr. R. R. Sawant", 468, 12, 12, 32, 302, 8],
-["Prof. D. D. Ambawade", 632, 13, 20, 51, 368, 11],
+// ["Prof. D. D. Ambawade", 632, 13, 20, 51, 368, 11],
 ["Dr. Reena Sonkusare", 370, 11, 12, 33, 183, 8],
 ["Prof. Manish Parmar", 216, 7, 6, 16, 136, 5],
 ["Dr. Sukanya Kulkarni", 116, 7, 3, 24, 74, 6],

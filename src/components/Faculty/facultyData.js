@@ -53,19 +53,6 @@ export default [
     scholar: "https://scholar.google.com/citations?user=fP7xEcwAAAAJ&hl=en",
   },
   {
-    name: "Dr. Dayanand Ambawade",
-    designation: "Associate Professor",
-    image: "https://i.ibb.co/dQgWXvh/PXL-20240510-055619724.jpg",
-    qualification: "Ph.D",
-    experience: "26 Years",
-    expertise:
-      "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
-    email: "dd_ambawade@spit.ac.in",
-    phone: "(022) – 69846900 EXT:69846900 EXT: ",
-    url: "https://www.linkedin.com/in/dayanand-ambawade-a491a754/",
-    scholar: "https://scholar.google.com/citations?user=jW3ErDgAAAAJ&hl=en",
-  },
-  {
     name: "Dr. Reena Sonkusare",
     designation: "Associate Professor & HOD",
     image: "https://i.ibb.co/42Q75c5/PXL-20240510-055441933.jpg",
@@ -127,20 +114,6 @@ export default [
     phone: "(022) – 69846900 EXT: 953",
     url: "https://www.linkedin.com/in/",
     scholar: "https://scholar.google.co.in/citations?user=54Pbd6sAAAAJ&hl=en",
-  },
-  {
-    name: "Dr. Sujata Kulkarni",
-    designation: "Associate Professor",
-    image: "https://i.ibb.co/VJdJT0f/PXL-20240510-055823936.jpg",
-    qualification: "Ph. D",
-    experience: "20+ Years",
-    expertise:
-      "Pattern Recognition, Communication and Networking, Wireless Communication Networks, Embedded System",
-    email: "sujata_kulkarni@spit.ac.in",
-    phone: "(022) – 69846900 EXT:",
-    url: " linkedin.com/in/sujata-kulkarni-a8a94018b",
-    scholar:
-      "https://scholar.google.com/citations?hl=en&user=WdAgkpAAAAJ&view_op=list_works&citft=1&citft=2&email_for_op=sujata_kulkarni%40spit.ac.in&gmla=AJsN-F6KnSoSiZ9w_sHyuwU9SzOfEtR8lXUwn9nCkN5VCPhYAoK_T3vT4AOp8gGOR53K3_zjxYYa10Fi4Bhzxv3XCtjTbP-6cw",
   },
   {
     name: "Prof. Manish M. Parmar",
@@ -299,18 +272,6 @@ export default [
       "https://scholar.google.com/citations?user=NA08SMQAAAAJ&hl=en&oi=ao",
   },
   {
-    name: "Dr. Santoshkumar Sabat",
-    designation: "Assistant Professor",
-    image: "https://i.ibb.co/kSqx2C5/PXL-20240510-055755919.jpg",
-    qualification: "Ph. D (VNIT Nagpur)",
-    experience: "10 Years",
-    expertise: "Wireless Communication, LTE, 5G",
-    email: "santoshkumar_sabat@spit.ac.in",
-    phone: "(022) – 69846900 EXT:",
-    url: "https://www.linkedin.com/in/santoshkumar-sabat/",
-    scholar: "https://scholar.google.com/citations?user=N74EJiQAAAAJ&hl=en",
-  },
-  {
     name: "Dr. Shanti Swamy",
     designation: "Assistant Professor",
     image: "https://i.ibb.co/18bndfd/shanti-swamy-pic2.png",
@@ -324,45 +285,16 @@ export default [
     scholar: "https://scholar.google.co.in/citations?user=FxKdFxAAAAAJ&hl=en",
   },
   {
-    name: "Dr. Inderkumar M. Kochar ",
+    name: "Prof. Neha Barwa",
     designation: "Assistant Professor",
-    image: "https://i.ibb.co/6nCWqWN/ik-sir-fac-pic-jpeg.png",
-    qualification: "Ph.D. (IIT Roorkee)",
-    experience: "12+ Years",
+    image: "https://i.ibb.co/KjkC2qdx/Whats-App-Image-2025-09-02-at-14-31-38.jpg",
+    qualification: "B.E. EXTC (SPIT) , M.Tech (VLSI and Embedded systems, SVNIT)",
+    experience: "9 Years",
     // expertise:
     //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
-    email: "kochar.inderkumar@spit.ac.in",
-    phone: "(022) – 69846900 EXT: 384",
-    url: "https://www.linkedin.com/in/inderkumar-kochar-323b7516/",
-    scholar: "https://scholar.google.com/citations?hl=en&user=OwUNG0EAAAAJ",
-  },
-  {
-    name: "Dr. Pankaj Binda",
-    // TODO: no designation
-    designation: "Assistant Professor",
-    image: "https://i.ibb.co/B2fDsdD/pankaj-sir-pic3.png",
-    qualification: "Ph.D.",
-    experience: "",
-    // expertise:
-    //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
-    email: "pankaj.binda@spit.ac.in",
+    email: "neha.barwa@spit.ac.in",
     phone: "(022) – 69846900 EXT:",
-    url: "https://www.linkedin.com/in/dr-pankaj-binda-7a4689252/",
-    scholar: "https://scholar.google.com/citations?user=b060gP4AAAAJ&hl=en",
-  },
-  {
-    name: "Prof. Mrinmayi Patil",
-    // TODO: no designation
-    designation: "Assistant Professor",
-    image: "https://i.ibb.co/sg9vCLd/mrinmayi-patil-pic2.png",
-    qualification:
-      "B.Tech (Electronics) , M.Tech (Electronics and Communications)",
-    experience: "3.5 years",
-    // expertise:
-    //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
-    email: "mrinmayi.patil@spit.ac.in",
-    phone: "(022) – 69846900 EXT:",
-    url: "https://www.linkedin.com/in/mrinmayi-patil-0860aa32b",
-    scholar: "https://scholar.google.com/citations?user=huRBzKgAAAAJ&hl=en",
-  },
+    url: "https://www.linkedin.com/in/neha-barwa-48648545",
+    scholar: "https://scholar.google.co.in/citations?hl=en&user=9x3ZJTsAAAAJ",
+  }
 ];

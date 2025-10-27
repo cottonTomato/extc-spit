@@ -8,13 +8,15 @@ import SEPDF from "../../pdfs/btech_timetable/SE_EXTC.pdf";
 import TEPDF from "../../pdfs/btech_timetable/TE_EXTC.pdf";
 import BEPDF from "../../pdfs/btech_timetable/BE_EXTC.pdf";
 
-import EXTC_Syllabus_SEM_III from "../../pdfs/btech_syllabus/UG_Syllabus_2021-22_EXTC_Sem_III-IV.pdf";
-import EXTC_Syllabus_SEM_V from "../../pdfs/btech_syllabus/UG_Syllabus_2021-22_EXTC_Sem_V-VI.pdf";
+import EXTC_Syllabus_SEM_III from "../../pdfs/btech_syllabus/UG_Syllabus_2025-26_EXTC_Sem_III-IV.pdf";
+import EXTC_Syllabus_SEM_V from "../../pdfs/btech_syllabus/UG_Syllabus_2025-26_EXTC_Sem_V-VI.pdf";
 import EXTC_Syllabus_SEM_VII from "../../pdfs/btech_syllabus/UG_Syllabus_2021-22_EXTC_Sem_VII-VIII.pdf";
 import EXTC_SE_Syllabus from "../../pdfs/btech_syllabus/SE_EXTC_Syllabus.pdf";
+import MDM_Syllabus from "../../pdfs/btech_syllabus/UG_Syllabus_MDM_SE_2023-24.pdf";
 import EXTC_Scheme_2021_25 from "../../pdfs/btech_syllabus/BTECH_EXTC_2021-2025_Scheme_twice_modified.pdf";
 import EXTC_Scheme_2022_26 from "../../pdfs/btech_syllabus/BTECH_EXTC_2022-2026_Scheme_modified.pdf";
 import EXTC_Scheme_2023_27 from "../../pdfs/btech_syllabus/BTECH_EXTC_2023-2027_Scheme.pdf";
+import EXTC_Scheme_2024_28 from "../../pdfs/btech_syllabus/BTECH_EXTC_2024-2028_Scheme.pdf";
 
 class BTech extends Component {
   render() {
@@ -81,7 +83,7 @@ class BTech extends Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <h2>FE Class (EXTC 2021-2025)</h2>
+                        <h2>FE Class (EXTC 2025-2026)</h2>
                       </a>
                     </li>
                     <li>
@@ -90,16 +92,7 @@ class BTech extends Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <h2>SE Class (EXTC 2021-2025)</h2>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href={EXTC_Syllabus_SEM_V}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <h2>TE Class (EXTC 2021-2025)</h2>
+                        <h2>SE Class (EXTC 2025-2026)</h2>
                       </a>
                     </li>
                     <li>
@@ -108,7 +101,34 @@ class BTech extends Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <h2>BE Class (EXTC 2021-2025)</h2>
+                        <h2>SE Class (EXTC 2025-2026)</h2>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href={EXTC_Syllabus_SEM_V}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <h2>TE Class (EXTC 2025-2026)</h2>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href={EXTC_Syllabus_SEM_VII}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <h2>BE Class (EXTC 2025-2026)</h2>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href={MDM_Syllabus}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <h2>MDM (EXTC 2025-2026)</h2>
                       </a>
                     </li>
                   </ul>
@@ -143,6 +163,15 @@ class BTech extends Component {
                         rel="noopener noreferrer"
                       >
                         <h2>For 2023-2027 Batch</h2>
+                      </a>
+                    </li>
+                    <li>	
+                      <a
+                        href={EXTC_Scheme_2024_28}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <h2>For 2024-2028 Batch</h2>
                       </a>
                     </li>
                   </ul>
