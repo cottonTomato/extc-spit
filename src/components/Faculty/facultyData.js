@@ -277,11 +277,21 @@ export default [
     image: "https://i.ibb.co/18bndfd/shanti-swamy-pic2.png",
     qualification: "Ph.D.",
     experience: "28 Years",
-    // expertise:
-    //   "Computer Networking, Network Security, Mobile and Wireless Networks, Security Management ",
     email: "shanti.swamy@spit.ac.in",
     phone: "(022) – 69846900 EXT:",
     url: "https://www.linkedin.com/in/dr-shanti-swamy-55b25a14/",
     scholar: "https://scholar.google.co.in/citations?user=FxKdFxAAAAAJ&hl=en",
+  },
+  {
+    name: "Dr.Shubhangi M. Verulkar",
+    designation: "Assistant Professor",
+    image:
+      "https://i.ibb.co/hJc75V39/Whats-App-Image-2025-11-10-at-08-54-36-1.jpg",
+    qualification: "P.h.D-Electronics,ME-EXTC,BE-Electronics",
+    experience: "18 Years",
+    email: "shubhangi.verulkar@spit.ac.in",
+    phone: "(022) - 69846900 EXT:",
+    url: "",
+    scholar: "https://scholar.google.com/citations?hl=en&user=kkRucIAAAAAJ",
   },
 ];
