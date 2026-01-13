@@ -1,4 +1,4 @@
-// CREATED BY ATHARVA SHAH & ISHANI MATHUR FOR EXTC DEPARTMENT
+// CREATED BY ATHARVA SHAH & ISHANI MATHUR (PULKIT DWIVEDI & ABHINAV PANDEY TOO) FOR EXTC DEPARTMENT
 
 export default [
   {
@@ -293,5 +293,18 @@ export default [
     phone: "(022) - 69846900 EXT:",
     url: "",
     scholar: "https://scholar.google.com/citations?hl=en&user=kkRucIAAAAAJ",
+  },
+  {
+    name: "Dr. Shailaja Kurode ",
+    designation: "Professor Emeritus",
+    image:
+      "https://i.ibb.co/sdShKtmZ/Whats-App-Image-2026-01-13-at-22-00-00.jpg",
+    qualification: "PhD in Systems & Control from I.I.T. Bombay",
+    experience: "38 Years",
+    email: "shubhangi.verulkar@spit.ac.in",
+    phone: "8149197915",
+    url: "www.linkedin.com/in/shailaja-kurode-4958163b",
+    scholar:
+      "https://scholar.google.com/citations?user=4acVW-gAAAAJ&hl=en&authuser=1",
   },
 ];
